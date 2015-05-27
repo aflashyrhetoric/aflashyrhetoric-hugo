@@ -1,12 +1,12 @@
-name : Foundation5/github pages/Jykill starter
+name : Kevin Oh | Web Designer & Developer 
 brand : KevinOh 
 description : Kevin Oh. Web Designer & Developer
-keyword : 
-url : http://daigofuji.github.io/jekyll-foundation-5-starter/
-email : daigo@daigofujiwara.com
-twitter : DaigoFuji
-github : DaigoFuji
-author : Daigo Fujiwara
-analytics : UA-8418273-8
+keyword : web design
+url : http://localhost:4000
+# email : daigo@daigofujiwara.com
+# twitter : DaigoFuji
+# github : DaigoFuji
+# author : Daigo Fujiwara
+# analytics : UA-8418273-8
 year : 2015
 markdown : kramdown
