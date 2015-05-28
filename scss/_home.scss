@@ -4,11 +4,15 @@
 
 /* First section */
 .section-one {
-  background-color: blue;
+
+  min-height: 500px;
 
   img {
-    width: 100%;
-    margin: auto;
+    display: block;
+    margin: 0 auto;
+    float: left;
+
+    border: 1px solid black;
   }
 
   ul.nav-list {
@@ -16,4 +20,10 @@
   }
 }
 
-
+.first-bg {
+  height: 150px;
+  width: 100%;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

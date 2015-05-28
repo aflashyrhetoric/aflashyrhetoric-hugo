@@ -6,10 +6,20 @@ keywords: web development, webdev, webdesign, kevin oh
 ---
 
 
-<div class="row section-one">
-	<div class="small-8 medium-9 large-7 small-centered column">
+<div class="row full-width section-one">
 
-		<img src="http://placehold.it/150x150" alt="Kitten">
+		<img data-interchange="
+		[http://placehold.it/150x150, (small)],
+		[http://placehold.it/300x300, (medium)],
+		[http://placehold.it/450x450, (large)]
+		">
+
+		<div class="first-bg small-centered"data-interchange="
+		[http://placehold.it/415x150.png, (small)],
+		[http://placehold.it/300x300.png, (medium)],
+		[http://placehold.it/450x450.png, (large)]
+		"></div>
+
 
 		<ul class="nav-list">
 			<li><a href="/about">About</a></li>
@@ -19,4 +29,3 @@ keywords: web development, webdev, webdesign, kevin oh
 		</ul>
 
 	</div>
-</div>
