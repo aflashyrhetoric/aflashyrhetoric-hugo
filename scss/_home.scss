@@ -2,7 +2,18 @@
 /******* Homepage SCSS ***********/
 /*********************************/
 
+/* First section */
+.section-one {
+  background-color: blue;
 
+  img {
+    width: 100%;
+    margin: auto;
+  }
 
+  ul.nav-list {
+    list-style-type: none;
+  }
+}
 
 
