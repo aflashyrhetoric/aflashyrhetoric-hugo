@@ -4,11 +4,30 @@
 
 /* First section */
 .section-one {
+  padding-top: 30px;
+
+  h1 { 
+
+    font-family: 'Brandon Grotesque', sans-serif;
+  }
+
+  // Photo BG
+  .first-bg {
+    @media #{$medium-up} {
+      background-size: cover;
+      min-height: 200px;
+    }
+
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+
+  }
+
 
   min-height: 500px;
 
   img {
-    display: block;
+    display: inline-block;
     margin: 0 auto;
     float: left;
 
@@ -20,10 +39,3 @@
   }
 }
 
-.first-bg {
-  height: 150px;
-  width: 100%;
-  background-position: 50% 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
