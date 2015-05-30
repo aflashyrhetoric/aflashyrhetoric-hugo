@@ -2,29 +2,41 @@
 /******* Homepage SCSS ***********/
 /*********************************/
 
+@import "responsive-dimensions",
+        "colors";
+
+
 /* First section */
 .section-one {
-  padding-top: 30px;
+  padding-top: 15px;
+  min-height: 500px;
 
-  h1 { 
+  ul li:first-child {
+    margin-left: 3px; 
+  }
 
-    font-family: 'Brandon Grotesque', sans-serif;
+  h2 {
+    font-family: 'proxima-nova';
   }
 
   // Photo BG
   .first-bg {
+    @media #{$small-up} {
+      min-height: $small-height;
+    }
+
     @media #{$medium-up} {
       background-size: cover;
       min-height: 200px;
     }
 
+    @media #{$large-up} {
+      background-size: cover;
+      min-height: 200px;
+    }
     background-position: 50% 0;
     background-repeat: no-repeat;
-
   }
-
-
-  min-height: 500px;
 
   img {
     display: inline-block;
@@ -39,3 +51,7 @@
   }
 }
 
+.section-two {
+  padding-top: 15px;
+  border-top: 1px solid $; 
+}
