@@ -3,14 +3,20 @@
 /*********************************/
 
 @import "responsive-dimensions",
-        "colors";
+"colors";
 
+$paragraph-font: 'rooney-web', sans-serif;
+$subheader-font: 'jubilat', sans-serif;
+$stylish-header-font: 'lust-script', sans-serif;
+
+.section {
+  padding-top: 15px;
+  min-height: 500px;
+  border-bottom: 1px solid $border-color-one; 
+}
 
 /* First section */
 .section-one {
-  padding-top: 15px;
-  min-height: 500px;
-
   ul li:first-child {
     margin-left: 3px; 
   }
@@ -52,6 +58,34 @@
 }
 
 .section-two {
-  padding-top: 15px;
-  border-top: 1px solid $; 
+  h2 { 
+    font-family: 'lust-script', sans-serif;
+    font-size: 2.4em;
+    margin-bottom: 26px;
+  }
+}
+
+.skill {
+  @media #{$small-only} {
+    text-align: center;
+  }
+  @media #{$medium-only} {
+    text-align: center;
+  }
+  //"SKILLS"
+  i{
+    margin-bottom: 10px;
+  }
+  h2.skill-name {
+    font-family: 'jubilat';
+  } 
+  p{
+    font-family: 'rooney-web', sans-serif;
+  }
+  .skill-icon { 
+   // 
+  }
+  .skill-description{
+
+  }
 }
