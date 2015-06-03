@@ -58,29 +58,35 @@ $stylish-header-font: 'lust-script', sans-serif;
 }
 
 .section-two {
+  // background-color: #c0c0c0;
 }
 
-.skill {
+.service {
+
   @media #{$small-only} {
     text-align: center;
   }
   @media #{$medium-only} {
     text-align: center;
   }
-  //"SKILLS"
+  //"serviceS"
   i{
     margin-bottom: 10px;
   }
-  h2.skill-name {
+  h2.service-name {
     font-family: 'jubilat';
   } 
   p{
     font-family: 'rooney-web', sans-serif;
   }
-  .skill-icon { 
+  .service-icon { 
    // 
   }
-  .skill-description{
+  .service-description{
 
+  }
+  .service-subheader{
+    font-family: $subheader-font;
+    color: $subtle-color;
   }
 }
