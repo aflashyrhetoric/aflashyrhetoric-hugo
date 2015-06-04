@@ -47,6 +47,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
 }
 
+.color-accent {
+  color: $color-accent;
+}
+
 // Add to row to make it expand to full screen
 
 .full-width { 

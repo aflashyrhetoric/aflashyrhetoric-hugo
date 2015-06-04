@@ -75,18 +75,42 @@ $stylish-header-font: 'lust-script', sans-serif;
   }
   h2.service-name {
     font-family: 'jubilat';
+    line-height: 30px;
   } 
   p{
     font-family: 'rooney-web', sans-serif;
   }
   .service-icon { 
-   // 
-  }
-  .service-description{
+    @media #{$medium-up} {
+      margin-bottom: 30px;
+    }
+  } 
+}
+.service-description{
 
+}
+.service-subheader{
+  font-family: $subheader-font;
+  color: $subtle-color;
+}
+
+
+.section-three {
+  .accent {
+    font-size: 2em;
+    vertical-align: middle;
   }
-  .service-subheader{
-    font-family: $subheader-font;
-    color: $subtle-color;
+  h2 { // latest work / current projects
+    @media #{$medium-up} {
+      display: inline;
+    }
+  }
+
+  a.active {
+    //colors
+  }
+
+  p {
+    display: inline;
   }
 }
