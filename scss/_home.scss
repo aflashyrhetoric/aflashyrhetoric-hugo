@@ -86,9 +86,22 @@ $stylish-header-font: 'lust-script', sans-serif;
     }
   } 
 }
-.service-description{
-
+.past-work-description-labels{
+  @media #{ $large-up } {
+    text-align: right;
+  }
+  font-weight: bold;
+  ul {
+    list-style-type: none;
+  }
 }
+
+.past-work-description {
+  ul {
+    list-style-type: none;
+  }
+}
+
 .service-subheader{
   font-family: $subheader-font;
   color: $subtle-color;
@@ -96,10 +109,21 @@ $stylish-header-font: 'lust-script', sans-serif;
 
 
 .section-three {
+
+  img {
+    @media #{ $medium-only } {
+    }
+  }
+
   .accent {
     font-size: 2em;
     vertical-align: middle;
   }
+
+  .project {
+    margin-bottom: 15px;
+  }
+
   h2 { // latest work / current projects
     @media #{$medium-up} {
       display: inline;
@@ -113,4 +137,5 @@ $stylish-header-font: 'lust-script', sans-serif;
   p {
     display: inline;
   }
+
 }
