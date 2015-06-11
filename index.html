@@ -124,33 +124,33 @@ keywords: web development, webdev, webdesign, kevin oh
 <!-- ************* -->
 <div class="row full-width section section-three">
 	<div class="
+		mbl
 		small-12 small-centered
-		medium-7 medium-centered
-		large-7 large-centered
+		medium-5 medium-centered
+		large-6 large-centered
 		columns">
-		<h2 class="mvn"><a href="portfolio/latest">latest work</a></h2>
+		<h2><a href="portfolio/latest">latest work</a></h2>
 		<h2></h2><span class="accent color-accent">/</span></h2>
-		<h2 class="mbl"><a href="portfolio/current">current projects</a></h2>
-	</div>
-
-	<div class="small-12 medium-6 medium-centered large-12 large-centered columns">
-		
+		<h2><a href="portfolio/current">current projects</a></h2>
 	</div>
 	{% for work in site.data.works.works %}
+		<div class="row mbs">
+			<div class="small-4 small-centered medium-3 large-1 columns">
+				<h2 class="text-center">{{ work.name }}</h2>
+			</div>
+		</div>
 		<div class="row project">
 			<div class="
 				project
 				small-12
-				medium-6 
-				large-6 
+				medium-6
+				large-6
 				columns">
 				<p>
 					<img class="mtm" src="img/works/{{ work.thumburl }}" alt="{{ work.name }}">
 				</p>
 			</div>
-
-			<div class="past-work-description-labels small-8 medium-2 large-2 columns">
-			<h1>hellohhelloello</h1>
+			<div class="past-work-description-labels pvs small-8 hide-for-medium-only large-2 columns">
 				<ul class="mts show-for-large-up">
 					<li>services</li>
 					<li>about</li>
@@ -159,7 +159,7 @@ keywords: web development, webdev, webdesign, kevin oh
 				</ul>
 			</div>
 
-			<div class="past-work-description small-12 medium-4 large-4 columns">
+			<div class="past-work-description pvs small-12 medium-6 large-4 columns">
 				<ul>
 					<h3 class="mtm hide-for-large-up">services rendered</h3>
 					<li>{{ work.services }} </li>
@@ -172,6 +172,6 @@ keywords: web development, webdev, webdesign, kevin oh
 				</ul>
 			</div>
 			<hr>
-		</div> <!--End of project -->
-	{% endfor %}
-</div>
+			</div> <!--End of project -->
+		{% endfor %}
+	</div>
