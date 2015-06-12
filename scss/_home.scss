@@ -1,90 +1,76 @@
 /*********************************/
 /******* Homepage SCSS ***********/
 /*********************************/
-
 @import "responsive-dimensions",
 "colors";
-
 $paragraph-font: 'rooney-web', sans-serif;
 $subheader-font: 'jubilat', sans-serif;
 $stylish-header-font: 'lust-script', sans-serif;
-
 .section {
   padding-top: 15px;
   min-height: 500px;
-  border-bottom: 1px solid $border-color-one; 
+  border-bottom: 1px solid $border-color-one;
 }
-
 /* First section */
 .section-one {
   ul li:first-child {
-    margin-left: 3px; 
+    margin-left: 3px;
   }
-
   h2 {
     font-family: 'proxima-nova';
   }
-
-  // Photo BG
-  .first-bg {
-    @media #{$small-up} {
-      min-height: $small-height;
-    }
-
-    @media #{$medium-up} {
-      background-size: cover;
-      min-height: 200px;
-    }
-
-    @media #{$large-up} {
-      background-size: cover;
-      min-height: 200px;
-    }
-    background-position: 50% 0;
-    background-repeat: no-repeat;
+// Photo BG
+.first-bg {
+  @media #{$small-up} {
+    min-height: $small-height;
   }
-
-  img {
-    display: inline-block;
-    margin: 0 auto;
-    float: left;
-
-    border: 1px solid black;
+  @media #{$medium-up} {
+    background-size: cover;
+    min-height: 200px;
   }
-
-  ul.nav-list {
-    list-style-type: none;
+  @media #{$large-up} {
+    background-size: cover;
+    min-height: 200px;
   }
+  background-position: 50% 0;
+  background-repeat: no-repeat;
 }
-
+img {
+  display: inline-block;
+  margin: 0 auto;
+  float: left;
+  border: 1px solid black;
+}
+ul.nav-list {
+  list-style-type: none;
+}
+}
 .section-two {
-  // background-color: #c0c0c0;
+// background-color: #c0c0c0;
 }
-
 .service {
-
   @media #{$small-only} {
     text-align: center;
   }
   @media #{$medium-only} {
     text-align: center;
   }
-  //"serviceS"
-  i{
-    margin-bottom: 10px;
+//"serviceS"
+i{
+  margin-bottom: 10px;
+}
+h2.service-name {
+  font-family: 'jubilat';
+  line-height: 30px;
+}
+p{
+  font-family: 'rooney-web', sans-serif;
+}
+.service-icon {
+  @media #{$medium-up} {
+    margin-bottom: 30px;
   }
-  h2.service-name {
-    font-family: 'jubilat';
-    line-height: 30px;
-  } 
-  p{
-    font-family: 'rooney-web', sans-serif;
-  }
-  .service-icon { 
-    @media #{$medium-up} {
-      margin-bottom: 30px;
-    }
-  } 
+}
 }
 .past-work-description-labels{
   @media #{ $large-up } {
@@ -95,62 +81,59 @@ $stylish-header-font: 'lust-script', sans-serif;
     list-style-type: none;
   }
 }
-
 .past-work-description {
   ul {
     list-style-type: none;
   }
 }
-
 .service-subheader{
   font-family: $subheader-font;
   color: $subtle-color;
 }
-
-
 .section-three {
-
   img {
-    border: 9px solid $color5;
-    // box-shadow: 3px 3px 10px #e3e3e3;
-  }
-
-  .accent {
+    border: 30px solid $color5;
+// box-shadow: 3px 3px 10px #e3e3e3;
+}
+.accent {
+  font-size: 2em;
+  vertical-align: middle;
+}
+.project {
+  margin-bottom: 15px;
+  a {
+    text-align: center;
+    font-family: 'brandon-grotesque';
     font-size: 2em;
-    vertical-align: middle;
   }
-
-  .project {
-    margin-bottom: 15px;
-    a {
-
-      text-align: center;
-      font-family: 'brandon-grotesque';
-      font-size: 2em;
-    }
-  }
-
-  h2 { // latest work / current projects
-    @media #{$medium-up} {
-      display: inline;
-    }
-  }
-
-  a.active {
-    //colors
-  }
-
-  p {
+}
+h2 { // latest work / current projects
+  @media #{$medium-up} {
     display: inline;
   }
-
 }
-
+a.active {
+//colors
+}
+p {
+  display: inline;
+}
+}
 .section-four {
   h2 {
     font-weight: bold;
+
+    &#hashtag-latest-header {
+      font-size: 3em;
+      font-family: 'rooney-web';
+    }
+
   }
   h2 span {
     color: gray;
   }
+
+  // blog posts
+
+
 }
