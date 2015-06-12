@@ -133,42 +133,51 @@ keywords: web development, webdev, webdesign, kevin oh
 		<h2></h2><span class="accent color-accent">/</span></h2>
 		<h2><a href="portfolio/current">current projects</a></h2>
 	</div>
+
+	<!--Projects -->
 	{% for work in site.data.works.works %}
 		<div class="row mbs">
-			<div class="small-4 small-centered medium-3 large-1 columns">
+			<div class="small-4 small-centered medium-1 large-1 columns">
 				<h2 class="text-center">{{ work.name }}</h2>
 			</div>
 		</div>
+
+		<!--Projects -->
 		<div class="row project">
 			<div class="
 				project
-				small-12
-				medium-6
-				large-6
+				small-10 small-offset-1
+				medium-5 medium-offset-1
+				large-5 large-offset-1
 				columns">
-				<p>
-					<img class="mtm" src="img/works/{{ work.thumburl }}" alt="{{ work.name }}">
-				</p>
+				<img class="mtm" src="img/works/{{ work.thumburl }}" alt="{{ work.name }}">
+				<h3 class="mtm text-center hide-for-large-up">visit</h3>
+				<a class="mvn text-center" href="{{ work.URL }}">{{ work.URL }}</a>
 			</div>
-			<div class="past-work-description-labels pvs small-8 hide-for-medium-only large-2 columns">
-				<ul class="mts show-for-large-up">
+			<div class="past-work-description-labels pvs 
+			small-8 
+			hide-for-medium-only 
+			large-2 large-offset-0
+			columns">
+				<ul class="mtn show-for-large-up">
 					<li>services</li>
 					<li>about</li>
 					<li>technologies</li>
 					<li>visit</li>
 				</ul>
 			</div>
-
-			<div class="past-work-description pvs small-12 medium-6 large-4 columns">
+			<div class="past-work-description pvs
+				small-12
+				medium-4 medium-offset-1
+				large-4 large-offset-0
+				columns">
 				<ul>
-					<h3 class="mtm hide-for-large-up">services rendered</h3>
+					<h3 class="mtn hide-for-large-up">services rendered</h3>
 					<li>{{ work.services }} </li>
 					<h3 class="mtm hide-for-large-up">about</h3>
 					<li>{{ work.description }} </li>
 					<h3 class="mtm hide-for-large-up">technologies used</h3>
 					<li>{{ work.tech_used }} </li>
-					<h3 class="mtm hide-for-large-up">visit</h3>
-					<li><a href="{{ work.URL }}">{{ work.URL }}</a></li>
 				</ul>
 			</div>
 			<hr>

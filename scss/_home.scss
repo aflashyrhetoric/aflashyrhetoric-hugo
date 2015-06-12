@@ -111,8 +111,8 @@ $stylish-header-font: 'lust-script', sans-serif;
 .section-three {
 
   img {
-    @media #{ $medium-only } {
-    }
+    border: 9px solid $color5;
+    // box-shadow: 3px 3px 10px #e3e3e3;
   }
 
   .accent {
@@ -122,6 +122,12 @@ $stylish-header-font: 'lust-script', sans-serif;
 
   .project {
     margin-bottom: 15px;
+    a {
+
+      text-align: center;
+      font-family: 'brandon-grotesque';
+      font-size: 2em;
+    }
   }
 
   h2 { // latest work / current projects
