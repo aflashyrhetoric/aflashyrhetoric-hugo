@@ -4,7 +4,7 @@
 @import "responsive-dimensions",
 "colors";
 $paragraph-font: 'rooney-web', sans-serif;
-$subheader-font: 'jubilat', sans-serif;
+$subheader-font: 'museo-slab', sans-serif;
 $stylish-header-font: 'lust-script', sans-serif;
 .section {
   padding-top: 15px;
@@ -49,28 +49,28 @@ ul.nav-list {
 // background-color: #c0c0c0;
 }
 .service {
-  @media #{$small-only} {
-    text-align: center;
+    @media #{$small-only} {
+      text-align: center;
+    }
+    @media #{$medium-only} {
+      text-align: center;
+    }
+  //"serviceS"
+  i{
+    margin-bottom: 10px;
   }
-  @media #{$medium-only} {
-    text-align: center;
+  h2.service-name {
+    font-family: 'museo-slab';
+    line-height: 30px;
   }
-//"serviceS"
-i{
-  margin-bottom: 10px;
-}
-h2.service-name {
-  font-family: 'jubilat';
-  line-height: 30px;
-}
-p{
-  font-family: 'rooney-web', sans-serif;
-}
-.service-icon {
-  @media #{$medium-up} {
-    margin-bottom: 30px;
+  p{
+    font-family: 'brandon-grotesque', sans-serif;
   }
-}
+  .service-icon {
+    @media #{$medium-up} {
+      margin-bottom: 30px;
+    }
+  }
 }
 .past-work-description-labels{
   @media #{ $large-up } {
