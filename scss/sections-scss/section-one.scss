@@ -1,91 +1,131 @@
 .section-one {
+
+  // Section-wide
   @media #{ $small-only } {
-    min-height: 300px;
+    min-height: 260px;
   }
 
   @media #{ $medium-up } {
-    min-height: 660px;
-    padding-top: 250px;
+    min-height: 720px;
+    padding-top: 100px;
   }
 
-
-  background-image: url('../img/desk.JPG');
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover; 
-
-
-  ul li {
-    font-size: 2em;
-    line-height: 34px;
-    font-family: 'proxima-nova';
-    &:first-child{
-    }
+  // Background Image
+  @media #{ $small-only } {
+    background-color: $color1;
   }
+
+  @media #{ $medium-up } {
+    background-image: url('../img/desk2.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover; 
+  }
+
+  // List placement / formatting
   ul.nav-list {
     list-style-type: none;
-    display: inline;
-  }
-  .main-header {
+    margin-left: 0;
+
+    // Prevents uneven centering of inline list.
     @media #{ $small-only } {
-      text-align: center;
+      text-align: center; 
     }
 
     @media #{ $medium-up } {
       text-align: right;
     }
+  }
 
-
-    h1 {
-      color: $color5;
-      font-family: $header-font;
-      line-height: 60px;
-      display: inline;
-
-      @media #{ $medium-up } {
-        font-size: 5em; 
-      }
+  // Nav List
+  ul li {
+    font-family: 'jubilat';
+    a {
+      color: white;
     }
-
-
-  }
-  h2 {
-    font-family: 'brandon-grotesque';
-  }
-  p.description {
-    color: $paragraphs;
 
     @media #{ $small-only } {
-      font-size: 1.4em;
-      font-family: 'proxima-nova';
+      font-size: 1em;
+      line-height: 14px;
+      display: inline;
     }
 
-    @media #{ $medium-only } {
+    @media #{ $medium-only} {
       font-size: 2em;
-      font-family: $paragraph-font; 
+      line-height: 34px;
     }
 
-    @media #{ $large-only } {
-      font-size: 3em;
-      font-family: $paragraph-font; 
+    @media #{ $large-only} {
+      font-size: 2em;
+      line-height: 45px;
     }
 
   }
-// Photo BG
-.first-bg {
-  background-position: 50% 0;
-  background-repeat: no-repeat;
-  @media #{$small-up} {
-    min-height: $small-height;
-  }
-  @media #{$medium-up} {
-    background-size: cover;
-    min-height: 200px;
-  }
-  @media #{$large-up} {
-    background-size: cover;
-    min-height: 200px;
-  }
-}
 
+  // Header DIV
+  .main-header {
+    @media #{ $small-only } {
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    @media #{ $medium-up } {
+      text-align: right;
+      font-size: 3em; 
+    }
+
+    // Header image
+    img {
+      @media #{ $large-only } {
+        width: 400px !important; 
+        max-width: 100%;
+        min-height: auto;
+        border-radius: 4px;
+        float: left;
+
+        position: relative;
+        top: -15px;
+        // right: 15px;
+      }
+
+    }
+  }
+
+  p {
+    color: $black;
+    text-align: center;
+    position: relative;
+
+    &.description {
+      font-family: 'museo-slab';
+
+      @media #{ $small-only } {
+        font-size: 1.6em;
+        color: white;
+      }
+
+      @media #{ $medium-only } {
+        font-size: 2em;
+        top: 70px;
+      }
+
+      @media #{ $large-only } {
+        font-size: 2em;
+        line-height: 70px;
+        top: 70px;
+      }
+    }
+    &.email {
+     font-family: 'brandon-grotesque'; 
+     font-size: 1.6em;
+     @media #{ $medium-only } {
+       position: relative;
+       top: 80px;
+     }
+     @media #{ $large-only } {
+       color: white;
+       top: 100px;
+     }
+    }
+  }
 }
