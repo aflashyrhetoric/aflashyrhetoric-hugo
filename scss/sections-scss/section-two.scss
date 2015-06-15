@@ -4,25 +4,78 @@
 .section-two {
 // background-color: #c0c0c0;
 }
+
+ul.services-list {
+  margin: auto;
+  list-style-type: none;
+  li {
+    display: inline;
+    a { 
+      font-variant: small-caps;
+      font-size: 2em;
+
+      &:visited {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+h2.core-services {
+  font-family: 'rooney-web', sans-serif;
+  font-size: 3em;
+}
+
+.brand {
+  // border-right: 1px solid black;
+}
+
 .service {
+  display: none;
+  @media #{ $small-only } {
+    padding-top: 20px;
+  }
+
+  @media #{ $medium-up } {
+    padding-top: 70px;
+  }
+
+  text-align: center;
+
+
+
   @media #{$small-only} {
     text-align: center;
+    min-height: 100px;
   }
-  @media #{$medium-only} {
-    text-align: center;
+  @media #{$medium-up} {
+    min-height: 400px;
   }
-  //"serviceS"
-  i{
-    margin-bottom: 10px;
-  }
+
+  //"services"
   h2.service-name {
+    font-size: 3em;
     font-family: 'museo-slab';
-    line-height: 30px;
+    line-height: 39px;
   }
-  p{
+
+  p.service-description{
+    font-size: 1.4em;
     font-family: 'brandon-grotesque', sans-serif;
   }
-  .service-icon {
+
+  i.service-icon{
+    // space under an icon
+    margin-bottom: 10px;
+
+    @media #{ $small-only } {
+      margin-top: 30px;
+    }
+
+    @media #{ $medium-up } {
+      margin-top: 60px;
+    }
+
     @media #{$medium-up} {
       margin-bottom: 30px;
     }
@@ -45,4 +98,43 @@
 .service-subheader{
   font-family: $subheader-font;
   color: $subtle-color;
+}
+
+
+.first-service {
+  background-color: $color3;
+  display: block;
+
+  h2 {
+    font-family: 'courier', sans-serif !important;
+    letter-spacing: -3px;
+    line-height: 47px !important;
+  }
+}
+
+.second-service {
+  i, h2, p{
+    color: white;
+  }
+  h2.service-name {
+    font-family: 'lust-script', sans-serif !important; 
+    font-size: 3em !important;
+  }
+  background-color: $color6;
+}
+
+.third-service {
+  background-color: $color5;
+}
+
+.fourth-service {
+  background-color: $color1;
+
+  h2.service-name {
+    font-family: 'jubilat', sans-serif !important;
+  }
+
+  p.service-description {
+    padding-top: 100px !important;
+  }
 }

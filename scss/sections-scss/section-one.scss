@@ -125,7 +125,11 @@
      @media #{ $large-only } {
        color: white;
        top: 100px;
-     }
+       i {
+        color: $color5;
+      }
+      
     }
   }
+}
 }
