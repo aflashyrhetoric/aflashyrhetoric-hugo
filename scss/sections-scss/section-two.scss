@@ -1,0 +1,48 @@
+/*********************************/
+/******* SECTION TWO *************/
+/*********************************/
+.section-two {
+// background-color: #c0c0c0;
+}
+.service {
+  @media #{$small-only} {
+    text-align: center;
+  }
+  @media #{$medium-only} {
+    text-align: center;
+  }
+  //"serviceS"
+  i{
+    margin-bottom: 10px;
+  }
+  h2.service-name {
+    font-family: 'museo-slab';
+    line-height: 30px;
+  }
+  p{
+    font-family: 'brandon-grotesque', sans-serif;
+  }
+  .service-icon {
+    @media #{$medium-up} {
+      margin-bottom: 30px;
+    }
+  }
+}
+.past-work-description-labels{
+  @media #{ $large-up } {
+    text-align: right;
+  }
+  font-weight: bold;
+  ul {
+    list-style-type: none;
+  }
+}
+.past-work-description {
+  ul {
+    list-style-type: none;
+  }
+}
+.service-subheader{
+  font-family: $subheader-font;
+  color: $subtle-color;
+}

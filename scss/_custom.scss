@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+a {
+  color: $link-color;
+}
+
 //helper for font weight
 //Open+Sans:400,700,800|Raleway:400,200,700
 .font-light {
