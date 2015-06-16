@@ -5,20 +5,31 @@
 // background-color: #c0c0c0;
 }
 
+// Services Navigation List
 ul.services-list {
+  height: 100px;
+  background-color: blue;
+
   margin: auto;
   list-style-type: none;
   li {
+    position: relative;
+    top: 20px;
+    margin-right: 60px;
     display: inline;
     a { 
-      font-variant: small-caps;
       font-size: 2em;
 
       &:visited {
         text-decoration: none;
       }
+
+      &.active {
+        color: red !important;
+      }
     }
   }
+
 }
 
 h2.core-services {
@@ -27,7 +38,23 @@ h2.core-services {
 }
 
 .brand {
-  // border-right: 1px solid black;
+  background-color: #373737 !important;
+  p, h2, * {
+    color: #e3e3e3 !important;
+  }
+
+
+}
+
+// Relevant Animate.CSS options
+.fadeOut {
+  -webkit-animation-duration: 0.1s;
+}
+
+.active-service {
+  div.service{
+    display: block !important;
+  }
 }
 
 .service {
@@ -103,7 +130,6 @@ h2.core-services {
 
 .first-service {
   background-color: $color3;
-  display: block;
 
   h2 {
     font-family: 'courier', sans-serif !important;
@@ -120,7 +146,7 @@ h2.core-services {
     font-family: 'lust-script', sans-serif !important; 
     font-size: 3em !important;
   }
-  background-color: $color6;
+  background-color:$color6;
 }
 
 .third-service {
