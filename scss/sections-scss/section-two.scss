@@ -8,16 +8,16 @@
 // Services Navigation List
 ul.services-list {
   height: 100px;
-  background-color: blue;
-
-  margin: auto;
   list-style-type: none;
+
   li {
     position: relative;
     top: 20px;
     margin-right: 60px;
     display: inline;
     a { 
+
+      font-family: 'proxima-nova';
       font-size: 2em;
 
       &:visited {
@@ -29,11 +29,10 @@ ul.services-list {
       }
     }
   }
-
 }
 
 h2.core-services {
-  font-family: 'rooney-web', sans-serif;
+  font-family: 'jubilat', sans-serif;
   font-size: 3em;
 }
 
@@ -58,12 +57,12 @@ h2.core-services {
 }
 
 .service {
-  display: none;
   @media #{ $small-only } {
     padding-top: 20px;
   }
 
   @media #{ $medium-up } {
+    display: none;
     padding-top: 70px;
   }
 
@@ -150,11 +149,12 @@ h2.core-services {
 }
 
 .third-service {
+  color: white;
   background-color: $color5;
 }
 
 .fourth-service {
-  background-color: $color1;
+  background-color: $color2;
 
   h2.service-name {
     font-family: 'jubilat', sans-serif !important;

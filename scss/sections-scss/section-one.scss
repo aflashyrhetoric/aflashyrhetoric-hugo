@@ -101,9 +101,15 @@
   }
 
   p {
-    color: $black;
     text-align: center;
     position: relative;
+
+    @media #{ $small-only } {
+      color: white;
+    }
+    @media #{ $medium-up} {
+      color: $black;
+    }
 
     &.description {
       font-family: 'museo-slab';
@@ -133,15 +139,25 @@
       }
 
       span.small {
-        // font-size: 2em;
+        @media #{ $medium-only } {
+          font-size: 1em;
+        }
+        @media #{ $large-up } {
+          font-size: 0.4em;
+        }
       }
     }
+
+    }
+
     &.email {
      font-family: 'brandon-grotesque'; 
      font-size: 1.6em;
+
      @media #{ $medium-only } {
        position: relative;
        top: 80px;
+       color: $color-one;
      }
      @media #{ $large-up} {
       color: $color-one;
@@ -151,5 +167,4 @@
       
     }
   }
-}
 }
