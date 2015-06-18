@@ -16,10 +16,14 @@
   }
 
   @media #{ $medium-up } {
-    background-image: url('../img/desk2.jpg');
+    background-image: url('../img/desk-setup-gs.jpg');
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    background-position: 50% 30%;
     background-size: cover; 
+  }
+
+  @media #{ $large-up } {
+    background-position: 50% 50%;
   }
 
   // List placement / formatting
@@ -58,6 +62,12 @@
     @media #{ $large-up} {
       font-size: 1.3em;
       line-height: 45px;
+    }
+
+    @media #{ $xlarge-up } {
+      font-size: 2em;
+      line-height: 50px;
+      
     }
 
   }
@@ -108,10 +118,22 @@
         top: 70px;
       }
 
-      @media #{ $large-only } {
-        font-size: 2em;
+      @media #{ $large-up } {
+        font-size: 5em;
         line-height: 70px;
+        color: #232323;
         top: 70px;
+
+        // background-color: rgba(255,255,255,0.2);
+      }
+
+      span.description-accent{
+        color: $color-one;
+        // font-family: 'lust-script';
+      }
+
+      span.small {
+        // font-size: 2em;
       }
     }
     &.email {
@@ -121,11 +143,10 @@
        position: relative;
        top: 80px;
      }
-     @media #{ $large-only } {
-       color: white;
-       top: 100px;
-       i {
-        color: $color5;
+     @media #{ $large-up} {
+      color: $color-one;
+      i {
+        color: $color-one;
       }
       
     }
