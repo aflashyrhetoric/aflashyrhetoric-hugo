@@ -1,29 +1,29 @@
 .section-three {
   img {
     border: 30px solid $color5;
-// box-shadow: 3px 3px 10px #e3e3e3;
-}
-.accent {
-  font-size: 2em;
-  vertical-align: middle;
-}
-.project {
-  margin-bottom: 15px;
-  a {
-    text-align: center;
-    font-family: 'brandon-grotesque';
-    font-size: 2em;
   }
-}
-h2 { // latest work / current projects
-  @media #{$medium-up} {
+  .accent {
+    font-size: 2em;
+    vertical-align: middle;
+  }
+  .project {
+    margin-bottom: 15px;
+    a {
+      text-align: center;
+      font-family: 'brandon-grotesque';
+      font-size: 2em;
+    }
+  }
+  // latest work / current projects
+  h2 { 
+    @media #{$medium-up} {
+      display: inline;
+    }
+  }
+  a.active {
+    //colors
+  }
+  p {
     display: inline;
   }
-}
-a.active {
-//colors
-}
-p {
-  display: inline;
-}
 }
