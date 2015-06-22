@@ -6288,8 +6288,7 @@ a {
 /*********************************/
 .section {
   padding-top: 15px;
-  min-height: 500px;
-  border-bottom: 1px solid #8f918a; }
+  min-height: 500px; }
 
 /*********************************/
 /******* SECTION IMPORT *************/
@@ -6306,8 +6305,7 @@ a {
     background-color: #001929; } }
 @media only screen and (min-width:40.0625em) {
   .section-one {
-    background-image: url('../img/desk-setup-gs.jpg');
-    background-repeat: no-repeat;
+    background: url('../img/desk-setup-pink.jpg') 50% 30% no-repeat;
     background-position: 50% 30%;
     background-size: cover; } }
 @media only screen and (min-width:64.0625em) {
@@ -6351,174 +6349,164 @@ a {
   .section-one .main-header {
     text-align: right;
     font-size: 3em; } }
-@media only screen and (min-width:64.0625em) {
-  .section-one .main-header img {
-    width: 400px !important;
-    min-height: auto;
-    border-radius: 4px;
-    float: left;
-    position: relative;
-    top: -15px; } }
-.section-one p {
-  text-align: center;
-  position: relative; }
+.section-one .main-header img {
+  position: relative;
+  border-radius: 4px; }
+  @media only screen and (min-width:40.0625em) and (max-width:64em) {
+    .section-one .main-header img {
+      top: -15px; } }
+  @media only screen and (min-width:64.0625em) {
+    .section-one .main-header img {
+      width: 400px !important;
+      min-height: auto;
+      top: -15px; } }
+.section-one h1#header {
+  position: relative;
+  font-family: 'museo-slab', sans-serif;
+  color: #ededed; }
   @media only screen and (max-width: 40em) {
-    .section-one p {
+    .section-one h1#header {
+      top: 50px; } }
+  @media only screen and (min-width:40.0625em) and (max-width:64em) {
+    .section-one h1#header {
+      top: 160px;
+      font-size: 5em; } }
+  @media only screen and (min-width:64.0625em) {
+    .section-one h1#header {
+      top: 80px;
+      font-size: 7em; } }
+  .section-one h1#header span.accent {
+    color: #545454; }
+.section-one p#subheader {
+  position: relative;
+  font-family: 'jubilat', sans-serif;
+  color: #560000; }
+  @media only screen and (max-width: 40em) {
+    .section-one p#subheader {
       color: white; } }
   @media only screen and (min-width:40.0625em) {
-    .section-one p {
-      color: black; } }
-  .section-one p.description {
-    font-family: 'museo-slab'; }
-    @media only screen and (max-width: 40em) {
-      .section-one p.description {
-        font-size: 1.6em;
-        color: white; } }
-    @media only screen and (min-width:40.0625em) and (max-width:64em) {
-      .section-one p.description {
-        font-size: 2em;
-        top: 70px; } }
-    @media only screen and (min-width:64.0625em) {
-      .section-one p.description {
-        font-size: 5em;
-        line-height: 70px;
-        color: #232323;
-        top: 70px; } }
-    .section-one p.description span.description-accent {
-      color: #f37373; }
-    @media only screen and (min-width:40.0625em) and (max-width:64em) {
-      .section-one p.description span.small {
-        font-size: 1em; } }
-    @media only screen and (min-width:64.0625em) {
-      .section-one p.description span.small {
-        font-size: 0.4em; } }
-.section-one.email {
-  font-family: 'brandon-grotesque';
-  font-size: 1.6em; }
-  @media only screen and (min-width:40.0625em) and (max-width:64em) {
-    .section-one.email {
-      position: relative;
-      top: 80px;
-      color: #f37373; } }
+    .section-one p#subheader {
+      color: black;
+      font-size: 1.3em;
+      top: 175px; } }
   @media only screen and (min-width:64.0625em) {
-    .section-one.email {
-      color: #f37373; }
-      .section-one.email i {
-        color: #f37373; } }
+    .section-one p#subheader {
+      font-size: 1.4em;
+      top: 80px; } }
 
 /*********************************/
 /******* SECTION TWO *************/
 /*********************************/
-
-ul.services-list {
-  height: 100px;
-  list-style-type: none; }
-  ul.services-list li {
-    position: relative;
-    top: 20px;
-    margin-right: 60px;
-    display: inline; }
-    ul.services-list li a {
-      font-family: 'proxima-nova';
-      font-size: 2em; }
-      ul.services-list li a:visited {
-        text-decoration: none; }
-      ul.services-list li a.active {
-        color: red !important; }
-
-h2.core-services {
-  font-family: 'jubilat', sans-serif;
-  font-size: 3em; }
-
-.brand {
-  background-color: #373737 !important; }
-  .brand p, .brand #FFFFFFh2, .brand * {
-    color: #e3e3e3 !important; }
-
-.fadeOut {
-  -webkit-animation-duration: 0.1s; }
-
-.active-service div.service {
-  display: block !important; }
-
-.service {
-  text-align: center; }
-  @media only screen and (max-width: 40em) {
-    .service {
-      padding-top: 20px; } }
-  @media only screen and (min-width:40.0625em) {
-    .service {
-      display: none;
-      padding-top: 70px; } }
-  @media only screen and (max-width: 40em) {
-    .service {
-      text-align: center;
-      min-height: 100px; } }
-  @media only screen and (min-width:40.0625em) {
-    .service {
-      min-height: 400px; } }
-  .service h2.service-name {
-    font-size: 3em;
-    font-family: 'museo-slab';
-    line-height: 39px; }
-  .service p.service-description {
-    font-size: 1.4em;
-    font-family: 'brandon-grotesque', sans-serif; }
-  .service i.service-icon {
-    margin-bottom: 10px; }
-    @media only screen and (max-width: 40em) {
-      .service i.service-icon {
-        margin-top: 30px; } }
-    @media only screen and (min-width:40.0625em) {
-      .service i.service-icon {
-        margin-top: 60px; } }
-    @media only screen and (min-width:40.0625em) {
-      .service i.service-icon {
-        margin-bottom: 30px; } }
-
-.past-work-description-labels {
-  font-weight: bold; }
-  @media only screen and (min-width:64.0625em) {
-    .past-work-description-labels {
-      text-align: right; } }
-  .past-work-description-labels ul {
+.section-two {
+  background-color: #161616; }
+  .section-two ul.services-list {
+    height: 100px;
     list-style-type: none; }
-
-.past-work-description ul {
-  list-style-type: none; }
-
-.service-subheader {
-  font-family: 'museo-slab', sans-serif;
-  color: #a5a5a5; }
-
-.first-service {
-  background-color: #74e068; }
-  .first-service h2 {
-    font-family: 'courier', sans-serif !important;
-    letter-spacing: -3px;
-    line-height: 47px !important; }
-
-.second-service {
-  background-color: #2d4a9d; }
-  .second-service i, .second-service h2, .second-service p {
+    .section-two ul.services-list li {
+      position: relative;
+      top: 20px;
+      margin-right: 60px;
+      display: inline; }
+      .section-two ul.services-list li a {
+        color: #dca3a3;
+        font-family: 'proxima-nova';
+        font-size: 2em; }
+        .section-two ul.services-list li a:visited {
+          text-decoration: none; }
+        .section-two ul.services-list li a.active {
+          color: #a83636 !important; }
+  .section-two h2.core-services {
+    font-family: 'jubilat', sans-serif;
+    font-size: 3em; }
+    @media only screen and (max-width: 40em) {
+      .section-two h2.core-services {
+        color: #cecece !important; } }
+    @media only screen and (min-width:40.0625em) {
+      .section-two h2.core-services {
+        color: #cecece !important; } }
+  .section-two .brand {
+    background-color: #373737 !important; }
+    .section-two .brand p, .section-two .brand #FFFFFFh2, .section-two .brand * {
+      color: #e3e3e3 !important; }
+  .section-two .fadeOut {
+    -webkit-animation-duration: 0.1s; }
+  .section-two .active-service div.service {
+    display: block !important; }
+  .section-two .service {
+    text-align: center; }
+    @media only screen and (max-width: 40em) {
+      .section-two .service {
+        padding-top: 20px; } }
+    @media only screen and (min-width:40.0625em) {
+      .section-two .service {
+        display: none;
+        padding-top: 70px; } }
+    @media only screen and (max-width: 40em) {
+      .section-two .service {
+        text-align: center;
+        min-height: 100px; } }
+    @media only screen and (min-width:40.0625em) {
+      .section-two .service {
+        min-height: 400px; } }
+    .section-two .service h2.service-name {
+      font-size: 3em;
+      font-family: 'museo-slab';
+      line-height: 39px; }
+    .section-two .service p.service-description {
+      font-size: 1.4em;
+      font-family: 'brandon-grotesque', sans-serif; }
+    .section-two .service i.service-icon {
+      margin-bottom: 10px; }
+      @media only screen and (max-width: 40em) {
+        .section-two .service i.service-icon {
+          margin-top: 30px; } }
+      @media only screen and (min-width:40.0625em) {
+        .section-two .service i.service-icon {
+          margin-top: 60px; } }
+      @media only screen and (min-width:40.0625em) {
+        .section-two .service i.service-icon {
+          margin-bottom: 30px; } }
+  .section-two .past-work-description-labels {
+    font-weight: bold; }
+    @media only screen and (min-width:64.0625em) {
+      .section-two .past-work-description-labels {
+        text-align: right; } }
+    .section-two .past-work-description-labels ul {
+      list-style-type: none; }
+  .section-two .past-work-description ul {
+    list-style-type: none; }
+  .section-two .service-subheader {
+    font-family: 'museo-slab', sans-serif;
+    color: #a5a5a5; }
+  .section-two .first-service {
+    background-color: #aa1f5e;
     color: white; }
-  .second-service h2.service-name {
-    font-family: 'lust-script', sans-serif !important;
-    font-size: 3em !important; }
-
-.third-service {
-  color: white;
-  background-color: #ff3e43; }
-
-.fourth-service {
-  background-color: #41e86a; }
-  .fourth-service h2.service-name {
-    font-family: 'jubilat', sans-serif !important; }
-  .fourth-service p.service-description {
-    padding-top: 100px !important; }
+    .section-two .first-service h2 {
+      font-family: 'courier', sans-serif !important;
+      letter-spacing: -3px;
+      line-height: 47px !important; }
+  .section-two .second-service {
+    background-color: #2d4a9d; }
+    .section-two .second-service i, .section-two .second-service h2, .section-two .second-service p {
+      color: white; }
+    .section-two .second-service h2.service-name {
+      font-family: 'lust-script', sans-serif !important;
+      font-size: 3em !important; }
+  .section-two .third-service {
+    color: white;
+    background-color: #a22529; }
+  .section-two .fourth-service {
+    background-color: #41e86a; }
+    .section-two .fourth-service h2.service-name {
+      font-family: 'jubilat', sans-serif !important; }
+    .section-two .fourth-service p.service-description {
+      padding-top: 100px !important; }
+  .section-two .button {
+    background-color: #373737;
+    color: #ebebeb; }
 
 .section-three img {
-  border: 30px solid #ff3e43; }
+  border: 30px solid #a22529; }
 .section-three .accent {
   font-size: 2em;
   vertical-align: middle; }

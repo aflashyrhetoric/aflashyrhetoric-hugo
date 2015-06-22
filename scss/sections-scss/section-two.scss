@@ -2,165 +2,176 @@
 /******* SECTION TWO *************/
 /*********************************/
 .section-two {
-// background-color: #c0c0c0;
-}
+  background-color: #161616;
 
-// Services Navigation List
-ul.services-list {
-  height: 100px;
-  list-style-type: none;
 
-  li {
-    position: relative;
-    top: 20px;
-    margin-right: 60px;
-    display: inline;
-    a { 
+  // Services Navigation List
+  ul.services-list {
+    height: 100px;
+    list-style-type: none;
 
-      font-family: 'proxima-nova';
-      font-size: 2em;
+    li {
+      position: relative;
+      top: 20px;
+      margin-right: 60px;
+      display: inline;
+      a { 
+        color: #DCA3A3;
+        font-family: 'proxima-nova';
+        font-size: 2em;
 
-      &:visited {
-        text-decoration: none;
-      }
+        &:visited {
+          text-decoration: none;
+        }
 
-      &.active {
-        color: red !important;
+        &.active {
+          color: #A83636 !important;
+        }
       }
     }
   }
-}
 
-h2.core-services {
-  font-family: 'jubilat', sans-serif;
-  font-size: 3em;
-}
-
-.brand {
-  background-color: #373737 !important;
-  p, #FFFFFFh2, * {
-    color: #e3e3e3 !important;
-  }
-
-
-}
-
-// Relevant Animate.CSS options
-.fadeOut {
-  -webkit-animation-duration: 0.1s;
-}
-
-.active-service {
-  div.service{
-    display: block !important;
-  }
-}
-
-.service {
-  @media #{ $small-only } {
-    padding-top: 20px;
-  }
-
-  @media #{ $medium-up } {
-    display: none;
-    padding-top: 70px;
-  }
-
-  text-align: center;
-
-
-
-  @media #{$small-only} {
-    text-align: center;
-    min-height: 100px;
-  }
-  @media #{$medium-up} {
-    min-height: 400px;
-  }
-
-  //"services"
-  h2.service-name {
+  h2.core-services {
+    font-family: 'jubilat', sans-serif;
     font-size: 3em;
-    font-family: 'museo-slab';
-    line-height: 39px;
-  }
-
-  p.service-description{
-    font-size: 1.4em;
-    font-family: 'brandon-grotesque', sans-serif;
-  }
-
-  i.service-icon{
-    // space under an icon
-    margin-bottom: 10px;
 
     @media #{ $small-only } {
-      margin-top: 30px;
+      color: #CECECE !important;
     }
 
     @media #{ $medium-up } {
-      margin-top: 60px;
+      color: #CECECE !important;
+    }
+  }
+
+  .brand {
+    background-color: #373737 !important;
+    p, #FFFFFFh2, * {
+      color: #e3e3e3 !important;
+    }
+  }
+
+  // Relevant Animate.CSS options
+  .fadeOut {
+    -webkit-animation-duration: 0.1s;
+  }
+
+  .active-service {
+    div.service{
+      display: block !important;
+    }
+  }
+
+  .service {
+    text-align: center;
+
+    @media #{ $small-only } {
+      padding-top: 20px;
     }
 
+    @media #{ $medium-up } {
+      display: none;
+      padding-top: 70px;
+    }
+
+    @media #{$small-only} {
+      text-align: center;
+      min-height: 100px;
+    }
     @media #{$medium-up} {
-      margin-bottom: 30px;
+      min-height: 400px;
+    }
+
+    //"services"
+    h2.service-name {
+      font-size: 3em;
+      font-family: 'museo-slab';
+      line-height: 39px;
+    }
+
+    p.service-description{
+      font-size: 1.4em;
+      font-family: 'brandon-grotesque', sans-serif;
+    }
+
+    i.service-icon{
+      // space under an icon
+      margin-bottom: 10px;
+
+      @media #{ $small-only } {
+        margin-top: 30px;
+      }
+
+      @media #{ $medium-up } {
+        margin-top: 60px;
+      }
+
+      @media #{$medium-up} {
+        margin-bottom: 30px;
+      }
     }
   }
-}
-.past-work-description-labels{
-  @media #{ $large-up } {
-    text-align: right;
+  .past-work-description-labels{
+    @media #{ $large-up } {
+      text-align: right;
+    }
+    font-weight: bold;
+    ul {
+      list-style-type: none;
+    }
   }
-  font-weight: bold;
-  ul {
-    list-style-type: none;
+  .past-work-description {
+    ul {
+      list-style-type: none;
+    }
   }
-}
-.past-work-description {
-  ul {
-    list-style-type: none;
+  .service-subheader{
+    font-family: $subheader-font;
+    color: $subtle-color;
   }
-}
-.service-subheader{
-  font-family: $subheader-font;
-  color: $subtle-color;
-}
 
 
-.first-service {
-  background-color: $color3;
-
-  h2 {
-    font-family: 'courier', sans-serif !important;
-    letter-spacing: -3px;
-    line-height: 47px !important;
-  }
-}
-
-.second-service {
-  i, h2, p{
+  .first-service {
+    background-color: $color3;
     color: white;
-  }
-  h2.service-name {
-    font-family: 'lust-script', sans-serif !important; 
-    font-size: 3em !important;
-  }
-  background-color:$color6;
-}
 
-.third-service {
-  color: white;
-  background-color: $color5;
-}
-
-.fourth-service {
-  background-color: $color2;
-
-  h2.service-name {
-    font-family: 'jubilat', sans-serif !important;
+    h2 {
+      font-family: 'courier', sans-serif !important;
+      letter-spacing: -3px;
+      line-height: 47px !important;
+    }
   }
 
-  p.service-description {
-    padding-top: 100px !important;
+  .second-service {
+    i, h2, p{
+      color: white;
+    }
+    h2.service-name {
+      font-family: 'lust-script', sans-serif !important; 
+      font-size: 3em !important;
+    }
+    background-color:$color6;
+  }
+
+  .third-service {
+    color: white;
+    background-color: $color5;
+  }
+
+  .fourth-service {
+    background-color: $color2;
+
+    h2.service-name {
+      font-family: 'jubilat', sans-serif !important;
+    }
+
+    p.service-description {
+      padding-top: 100px !important;
+    }
+  }
+
+  .button {
+    background-color: #373737;
+    color: #EBEBEB;
   }
 }

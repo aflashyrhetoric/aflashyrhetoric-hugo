@@ -16,10 +16,9 @@
   }
 
   @media #{ $medium-up } {
-    background-image: url('../img/desk-setup-gs.jpg');
-    background-repeat: no-repeat;
+    background: url('../img/desk-setup-pink.jpg') 50% 30% no-repeat; 
     background-position: 50% 30%;
-    background-size: cover; 
+    background-size: cover;  
   }
 
   @media #{ $large-up } {
@@ -86,85 +85,64 @@
 
     // Header image
     img {
+      position: relative; 
+      border-radius: 4px;
+
+      @media #{ $medium-only } {
+        top: -15px;
+      }
+
       @media #{ $large-up} {
         width: 400px !important; 
         min-height: auto;
-        border-radius: 4px;
-        float: left;
 
-        position: relative;
         top: -15px;
-        // right: 15px;
       }
+    }
+    //End of Image
+  }
 
+  h1#header {
+    position: relative;
+    font-family: 'museo-slab', sans-serif;
+    color: #EDEDED;
+
+    @media #{ $small-only } {
+      top: 50px;
+    }
+
+    @media #{ $medium-only } {
+      top: 160px;
+      font-size: 5em;
+    }
+
+    @media #{ $large-up } {
+      top: 80px;
+      font-size: 7em;
+    }
+
+    span.accent{
+      color: #545454;
     }
   }
 
-  p {
-    text-align: center;
+  p#subheader {
     position: relative;
+    font-family: 'jubilat', sans-serif;
+    color: #560000;
 
     @media #{ $small-only } {
       color: white;
     }
     @media #{ $medium-up} {
       color: $black;
+      font-size: 1.3em;
+      top: 175px; 
     }
-
-    &.description {
-      font-family: 'museo-slab';
-
-      @media #{ $small-only } {
-        font-size: 1.6em;
-        color: white;
-      }
-
-      @media #{ $medium-only } {
-        font-size: 2em;
-        top: 70px;
-      }
-
-      @media #{ $large-up } {
-        font-size: 5em;
-        line-height: 70px;
-        color: #232323;
-        top: 70px;
-
-        // background-color: rgba(255,255,255,0.2);
-      }
-
-      span.description-accent{
-        color: $color-one;
-        // font-family: 'lust-script';
-      }
-
-      span.small {
-        @media #{ $medium-only } {
-          font-size: 1em;
-        }
-        @media #{ $large-up } {
-          font-size: 0.4em;
-        }
-      }
-    }
-
-    }
-
-    &.email {
-     font-family: 'brandon-grotesque'; 
-     font-size: 1.6em;
-
-     @media #{ $medium-only } {
-       position: relative;
-       top: 80px;
-       color: $color-one;
-     }
-     @media #{ $large-up} {
-      color: $color-one;
-      i {
-        color: $color-one;
-      }
-      
+    @media #{ $large-up} {
+      font-size: 1.4em;
+      top: 80px; 
     }
   }
+  // END OF P SUBHEAD
 }

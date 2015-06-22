@@ -25,11 +25,14 @@ module.exports = function(grunt) {
         files: 'scss/**/*.scss',
         tasks: ['sass']
       }
-    }
+    },
+
+
   });
 
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-browser-sync');
 
   grunt.registerTask('build', ['sass']);
   grunt.registerTask('default', ['build','watch']);
