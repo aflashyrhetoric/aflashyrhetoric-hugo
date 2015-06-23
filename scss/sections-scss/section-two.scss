@@ -4,49 +4,45 @@
 .section-two {
   background-color: #161616;
 
+  h4.click-to-view {
+    color: $color3;
+  }
 
   // Services Navigation List
   ul.services-list {
     height: 100px;
     list-style-type: none;
-
     li {
       position: relative;
       top: 20px;
       margin-right: 60px;
       display: inline;
       a { 
-        color: #DCA3A3;
+        color: #545454;
         font-family: 'proxima-nova';
         font-size: 2em;
-
         &:visited {
           text-decoration: none;
         }
-
         &.active {
-          color: #A83636 !important;
+          color: #FFFFFF !important;
         }
       }
     }
   }
-
   h2.core-services {
     font-family: 'jubilat', sans-serif;
     font-size: 3em;
-
     @media #{ $small-only } {
       color: #CECECE !important;
     }
-
     @media #{ $medium-up } {
       color: #CECECE !important;
     }
   }
-
   .brand {
     background-color: #373737 !important;
-    p, #FFFFFFh2, * {
+    p, h2 {
       color: #e3e3e3 !important;
     }
   }
@@ -55,31 +51,25 @@
   .fadeOut {
     -webkit-animation-duration: 0.1s;
   }
-
   .active-service {
     div.service{
       display: block !important;
     }
   }
-
   .service {
     text-align: center;
-
     @media #{ $small-only } {
       padding-top: 20px;
-    }
-
-    @media #{ $medium-up } {
-      display: none;
-      padding-top: 70px;
-    }
-
-    @media #{$small-only} {
       text-align: center;
       min-height: 100px;
     }
-    @media #{$medium-up} {
-      min-height: 400px;
+    @media #{ $medium-up } {
+      display: none;
+      padding-top: 50px;
+      min-height: 500px;
+    }
+    @media #{ $large-up } {
+      min-height: 700px;
     }
 
     //"services"
@@ -88,25 +78,22 @@
       font-family: 'museo-slab';
       line-height: 39px;
     }
-
     p.service-description{
       font-size: 1.4em;
-      font-family: 'brandon-grotesque', sans-serif;
+      @media #{ $large-up } {
+        font-size: 2em;
+        
+      }
+      font-family: 'rooney-web', sans-serif;
     }
-
     i.service-icon{
       // space under an icon
-      margin-bottom: 10px;
-
+      border-radius: 130px;
       @media #{ $small-only } {
         margin-top: 30px;
       }
-
       @media #{ $medium-up } {
-        margin-top: 60px;
-      }
-
-      @media #{$medium-up} {
+        margin-top: 30px;
         margin-bottom: 30px;
       }
     }
@@ -130,34 +117,80 @@
     color: $subtle-color;
   }
 
-
+  /*********************************/
+  /******* SERVICES * SERVICES *****/
+  /*********************************/
   .first-service {
     background-color: $color3;
     color: white;
-
     h2 {
-      font-family: 'courier', sans-serif !important;
+      font-family: 'museo-slab', sans-serif !important;
       letter-spacing: -3px;
       line-height: 47px !important;
+    }
+    i.service-icon {
+      color: white;
+      background-color: $color3;
+      padding: 40px 37px;
+    }
+
+
+    .features {
+      h3 {
+        color: $color3;
+        font-size: 2.0em;
+        font-family: 'museo-slab', sans-serif;
+      }
+      position: relative;
+      top: 120px;
+      ul.feature-list {
+        list-style-type: none;
+        li {
+          font-family: 'proxima-nova', sans-serif;
+          font-size: 1.2em;
+          color: #C4C4C4;
+        }
+      }
+    }
+
+    a.button {
+      position: relative;
+      top: 60px;
     }
   }
 
   .second-service {
-    i, h2, p{
-      color: white;
-    }
+    background-color:$color6;
+
     h2.service-name {
       font-family: 'lust-script', sans-serif !important; 
       font-size: 3em !important;
     }
-    background-color:$color6;
+    p.service-description {
+      color: white;
+    }
+    i.service-icon {
+      color: white;
+      background-color: $color6;
+      padding: 40px 45px;
+    }
+    a.button {
+      position: relative;
+      top: 60px;
+    }
   }
 
   .third-service {
-    color: white;
     background-color: $color5;
+    color: #404040;
+    h2.service-name {
+      font-family: 'proxima-nova', sans-serif;
+    }
+    i.service-icon {
+      background-color: $color5;
+      padding: 40px 37px;
+    } 
   }
-
   .fourth-service {
     background-color: $color2;
 
@@ -167,6 +200,16 @@
 
     p.service-description {
       padding-top: 100px !important;
+    }
+
+    i.service-icon {
+      color: #3D3D3D;
+      background-color: $color2;
+      padding: 40px 45px;
+    }
+    a.button {
+      position: relative;
+      top: 60px;
     }
   }
 

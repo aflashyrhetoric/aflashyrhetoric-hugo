@@ -1,27 +1,26 @@
 .section-one {
 
   // Section-wide
-  @media #{ $small-only } {
-    min-height: 260px;
-  }
-
-  @media #{ $medium-up } {
-    min-height: 720px;
-    padding-top: 100px;
-  }
 
   // Background Image
   @media #{ $small-only } {
+    min-height: 260px;
     background-color: $color1;
   }
 
+  @media #{ $medium-only } {
+    min-height: 730px;
+  }
+
   @media #{ $medium-up } {
-    background: url('../img/desk-setup-pink.jpg') 50% 30% no-repeat; 
+    background: url('../img/desk-setup-gs.jpg') 50% 30% no-repeat; 
     background-position: 50% 30%;
     background-size: cover;  
+    padding-top: 100px;
   }
 
   @media #{ $large-up } {
+    min-height: 800px;
     background-position: 50% 50%;
   }
 
@@ -46,29 +45,23 @@
     a {
       color: white;
     }
-
     @media #{ $small-only } {
       font-size: 1em;
       line-height: 14px;
       display: inline;
     }
-
     @media #{ $medium-only} {
       font-size: 1.3em;
       line-height: 34px;
     }
-
     @media #{ $large-up} {
       font-size: 1.3em;
       line-height: 45px;
     }
-
     @media #{ $xlarge-up } {
       font-size: 2em;
       line-height: 50px;
-      
     }
-
   }
 
   // Header DIV
@@ -104,8 +97,8 @@
 
   h1#header {
     position: relative;
-    font-family: 'museo-slab', sans-serif;
-    color: #EDEDED;
+    font-family: 'prestige-elite-std', sans-serif;
+    color: #2F2F2F;
 
     @media #{ $small-only } {
       top: 50px;
@@ -122,16 +115,17 @@
     }
 
     span.accent{
-      color: #545454;
+      color: $color3;
     }
   }
 
   p#subheader {
     position: relative;
     font-family: 'jubilat', sans-serif;
+    background-color: rgba(255,255,255,0.5);
     color: #560000;
 
-    @media #{ $small-only } {
+    @media #{ $small-only } { 
       color: white;
     }
     @media #{ $medium-up} {

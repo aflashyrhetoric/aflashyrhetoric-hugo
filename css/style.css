@@ -6270,7 +6270,7 @@ a {
   margin: auto; }
 
 .color-accent {
-  color: #41e86a; }
+  color: #e87f41; }
 
 .full-width {
   width: 100%;
@@ -6295,21 +6295,20 @@ a {
 /*********************************/
 @media only screen and (max-width: 40em) {
   .section-one {
-    min-height: 260px; } }
-@media only screen and (min-width:40.0625em) {
-  .section-one {
-    min-height: 720px;
-    padding-top: 100px; } }
-@media only screen and (max-width: 40em) {
-  .section-one {
+    min-height: 260px;
     background-color: #001929; } }
+@media only screen and (min-width:40.0625em) and (max-width:64em) {
+  .section-one {
+    min-height: 730px; } }
 @media only screen and (min-width:40.0625em) {
   .section-one {
-    background: url('../img/desk-setup-pink.jpg') 50% 30% no-repeat;
+    background: url('../img/desk-setup-gs.jpg') 50% 30% no-repeat;
     background-position: 50% 30%;
-    background-size: cover; } }
+    background-size: cover;
+    padding-top: 100px; } }
 @media only screen and (min-width:64.0625em) {
   .section-one {
+    min-height: 800px;
     background-position: 50% 50%; } }
 .section-one ul.nav-list {
   list-style-type: none;
@@ -6362,8 +6361,8 @@ a {
       top: -15px; } }
 .section-one h1#header {
   position: relative;
-  font-family: 'museo-slab', sans-serif;
-  color: #ededed; }
+  font-family: 'prestige-elite-std', sans-serif;
+  color: #2f2f2f; }
   @media only screen and (max-width: 40em) {
     .section-one h1#header {
       top: 50px; } }
@@ -6376,10 +6375,11 @@ a {
       top: 80px;
       font-size: 7em; } }
   .section-one h1#header span.accent {
-    color: #545454; }
+    color: #aa1f5e; }
 .section-one p#subheader {
   position: relative;
   font-family: 'jubilat', sans-serif;
+  background-color: rgba(255, 255, 255, 0.5);
   color: #560000; }
   @media only screen and (max-width: 40em) {
     .section-one p#subheader {
@@ -6398,7 +6398,12 @@ a {
 /******* SECTION TWO *************/
 /*********************************/
 .section-two {
-  background-color: #161616; }
+  background-color: #161616;
+  /*********************************/
+  /******* SERVICES * SERVICES *****/
+  /*********************************/ }
+  .section-two h4.click-to-view {
+    color: #aa1f5e; }
   .section-two ul.services-list {
     height: 100px;
     list-style-type: none; }
@@ -6408,13 +6413,13 @@ a {
       margin-right: 60px;
       display: inline; }
       .section-two ul.services-list li a {
-        color: #dca3a3;
+        color: #545454;
         font-family: 'proxima-nova';
         font-size: 2em; }
         .section-two ul.services-list li a:visited {
           text-decoration: none; }
         .section-two ul.services-list li a.active {
-          color: #a83636 !important; }
+          color: white !important; }
   .section-two h2.core-services {
     font-family: 'jubilat', sans-serif;
     font-size: 3em; }
@@ -6426,7 +6431,7 @@ a {
         color: #cecece !important; } }
   .section-two .brand {
     background-color: #373737 !important; }
-    .section-two .brand p, .section-two .brand #FFFFFFh2, .section-two .brand * {
+    .section-two .brand p, .section-two .brand h2 {
       color: #e3e3e3 !important; }
   .section-two .fadeOut {
     -webkit-animation-duration: 0.1s; }
@@ -6436,35 +6441,35 @@ a {
     text-align: center; }
     @media only screen and (max-width: 40em) {
       .section-two .service {
-        padding-top: 20px; } }
-    @media only screen and (min-width:40.0625em) {
-      .section-two .service {
-        display: none;
-        padding-top: 70px; } }
-    @media only screen and (max-width: 40em) {
-      .section-two .service {
+        padding-top: 20px;
         text-align: center;
         min-height: 100px; } }
     @media only screen and (min-width:40.0625em) {
       .section-two .service {
-        min-height: 400px; } }
+        display: none;
+        padding-top: 50px;
+        min-height: 500px; } }
+    @media only screen and (min-width:64.0625em) {
+      .section-two .service {
+        min-height: 700px; } }
     .section-two .service h2.service-name {
       font-size: 3em;
       font-family: 'museo-slab';
       line-height: 39px; }
     .section-two .service p.service-description {
       font-size: 1.4em;
-      font-family: 'brandon-grotesque', sans-serif; }
+      font-family: 'rooney-web', sans-serif; }
+      @media only screen and (min-width:64.0625em) {
+        .section-two .service p.service-description {
+          font-size: 2em; } }
     .section-two .service i.service-icon {
-      margin-bottom: 10px; }
+      border-radius: 130px; }
       @media only screen and (max-width: 40em) {
         .section-two .service i.service-icon {
           margin-top: 30px; } }
       @media only screen and (min-width:40.0625em) {
         .section-two .service i.service-icon {
-          margin-top: 60px; } }
-      @media only screen and (min-width:40.0625em) {
-        .section-two .service i.service-icon {
+          margin-top: 30px;
           margin-bottom: 30px; } }
   .section-two .past-work-description-labels {
     font-weight: bold; }
@@ -6482,31 +6487,70 @@ a {
     background-color: #aa1f5e;
     color: white; }
     .section-two .first-service h2 {
-      font-family: 'courier', sans-serif !important;
+      font-family: 'museo-slab', sans-serif !important;
       letter-spacing: -3px;
       line-height: 47px !important; }
+    .section-two .first-service i.service-icon {
+      color: white;
+      background-color: #aa1f5e;
+      padding: 40px 37px; }
+    .section-two .first-service .features {
+      position: relative;
+      top: 120px; }
+      .section-two .first-service .features h3 {
+        color: #aa1f5e;
+        font-size: 2em;
+        font-family: 'museo-slab', sans-serif; }
+      .section-two .first-service .features ul.feature-list {
+        list-style-type: none; }
+        .section-two .first-service .features ul.feature-list li {
+          font-family: 'proxima-nova', sans-serif;
+          font-size: 1.2em;
+          color: #c4c4c4; }
+    .section-two .first-service a.button {
+      position: relative;
+      top: 60px; }
   .section-two .second-service {
     background-color: #2d4a9d; }
-    .section-two .second-service i, .section-two .second-service h2, .section-two .second-service p {
-      color: white; }
     .section-two .second-service h2.service-name {
       font-family: 'lust-script', sans-serif !important;
       font-size: 3em !important; }
+    .section-two .second-service p.service-description {
+      color: white; }
+    .section-two .second-service i.service-icon {
+      color: white;
+      background-color: #2d4a9d;
+      padding: 40px 45px; }
+    .section-two .second-service a.button {
+      position: relative;
+      top: 60px; }
   .section-two .third-service {
-    color: white;
-    background-color: #a22529; }
+    background-color: #41e86f;
+    color: #404040; }
+    .section-two .third-service h2.service-name {
+      font-family: 'proxima-nova', sans-serif; }
+    .section-two .third-service i.service-icon {
+      background-color: #41e86f;
+      padding: 40px 37px; }
   .section-two .fourth-service {
-    background-color: #41e86a; }
+    background-color: #e87f41; }
     .section-two .fourth-service h2.service-name {
       font-family: 'jubilat', sans-serif !important; }
     .section-two .fourth-service p.service-description {
       padding-top: 100px !important; }
+    .section-two .fourth-service i.service-icon {
+      color: #3d3d3d;
+      background-color: #e87f41;
+      padding: 40px 45px; }
+    .section-two .fourth-service a.button {
+      position: relative;
+      top: 60px; }
   .section-two .button {
     background-color: #373737;
     color: #ebebeb; }
 
 .section-three img {
-  border: 30px solid #a22529; }
+  border: 30px solid #41e86f; }
 .section-three .accent {
   font-size: 2em;
   vertical-align: middle; }
