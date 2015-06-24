@@ -102,6 +102,7 @@
 
     @media #{ $small-only } {
       top: 50px;
+      color: white;
     }
 
     @media #{ $medium-only } {
@@ -126,7 +127,7 @@
     color: #560000;
 
     @media #{ $small-only } { 
-      color: white;
+      color: black;
     }
     @media #{ $medium-up} {
       color: $black;

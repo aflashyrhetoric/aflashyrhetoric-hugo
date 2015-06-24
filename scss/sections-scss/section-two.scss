@@ -2,7 +2,13 @@
 /******* SECTION TWO *************/
 /*********************************/
 .section-two {
+
   background-color: #161616;
+
+  //utility classes 
+  .hoverLink {
+    color: #FFFFFF !important;
+  }
 
   h4.click-to-view {
     color: $color3;
@@ -25,7 +31,7 @@
           text-decoration: none;
         }
         &.active {
-          color: #FFFFFF !important;
+          color: #DADADA;
         }
       }
     }
@@ -131,7 +137,7 @@
     i.service-icon {
       color: white;
       background-color: $color3;
-      padding: 40px 37px;
+      padding: 40px 38px;
     }
 
 
@@ -142,13 +148,24 @@
         font-family: 'museo-slab', sans-serif;
       }
       position: relative;
-      top: 120px;
+      @media #{ $medium-only } {
+        top: 30px;
+      }
+      @media #{ $large-only } {
+        top: 120px;
+      }
+      @media #{ $xlarge-up } {
+        top: 100px;
+      }
       ul.feature-list {
         list-style-type: none;
         li {
           font-family: 'proxima-nova', sans-serif;
           font-size: 1.2em;
           color: #C4C4C4;
+          @media #{ $xlarge-up } {
+            font-size: 2em;
+          }
         }
       }
     }
@@ -178,6 +195,36 @@
       position: relative;
       top: 60px;
     }
+
+    .features {
+      h3 {
+        color: $color3;
+        font-size: 2.0em;
+        font-family: 'museo-slab', sans-serif;
+      }
+      position: relative;
+      @media #{ $medium-only } {
+        top: 30px;
+      }
+      @media #{ $large-only } {
+        top: 120px;
+      }
+      @media #{ $xlarge-up } {
+        top: 100px;
+      }
+
+      ul.feature-list {
+        list-style-type: none;
+        li {
+          font-family: 'proxima-nova', sans-serif;
+          font-size: 1.2em;
+          color: #C4C4C4;
+          @media #{ $xlarge-up } {
+            font-size: 2em;
+          }
+        }
+      }
+    }
   }
 
   .third-service {
@@ -190,6 +237,35 @@
       background-color: $color5;
       padding: 40px 37px;
     } 
+
+    .features {
+      h3 {
+        color: $color3;
+        font-size: 2.0em;
+        font-family: 'museo-slab', sans-serif;
+      }
+      position: relative;
+      @media #{ $medium-only } {
+        top: 30px;
+      }
+      @media #{ $large-only } {
+        top: 120px;
+      }
+      @media #{ $xlarge-up } {
+        top: 100px;
+      }
+      ul.feature-list {
+        list-style-type: none;
+        li {
+          font-family: 'proxima-nova', sans-serif;
+          font-size: 1.2em;
+          color: #C4C4C4;
+          @media #{ $xlarge-up } {
+            font-size: 2em;
+          }
+        }
+      }
+    }
   }
   .fourth-service {
     background-color: $color2;
@@ -210,6 +286,35 @@
     a.button {
       position: relative;
       top: 60px;
+    }
+
+    .features {
+      h3 {
+        color: $color3;
+        font-size: 2.0em;
+        font-family: 'museo-slab', sans-serif;
+      }
+      position: relative;
+      @media #{ $medium-only } {
+        top: 30px;
+      }
+      @media #{ $large-only } {
+        top: 120px;
+      }
+      @media #{ $xlarge-up } {
+        top: 100px;
+      }
+      ul.feature-list {
+        list-style-type: none;
+        li {
+          font-family: 'proxima-nova', sans-serif;
+          font-size: 1.2em;
+          color: #C4C4C4;
+          @media #{ $xlarge-up } {
+            font-size: 2em;
+          }
+        }
+      }
     }
   }
 

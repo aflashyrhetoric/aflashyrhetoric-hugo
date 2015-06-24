@@ -11,10 +11,10 @@ $(document).ready(function(){
   // Page interactions
   $('ul.services-list li a').hover(
     function() { 
-      // $(this).addClass('animated pulse');
+      $(this).addClass('hoverLink');
     },
     function() {
-      // $(this).removeClass('animated pulse');
+      $(this).removeClass('hoverLink');
     }
     )
 

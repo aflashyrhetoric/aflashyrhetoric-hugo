@@ -1,6 +1,41 @@
 .section-three {
+
+  ul {
+    list-style-type: none !important;
+  }
+
+  .portfolio-section {
+    background-color: #310100;
+    @media #{ $large-up } {
+      min-height: 250px;
+    }
+  }
+
+  h2.portfolio-header {
+    left: 0px;
+    font-size: 9em;
+    color: white;
+    display: inline;
+  }
+
+  ul.portfolio-list {
+    display: inline;
+    list-style-type: none;
+    li {
+      display: inline;
+      font-size: 2.5em;
+      color: #4E4E4E;
+      a {
+        color: #4E4E4E;
+        font-family: 'proxima-nova', sans-serif;
+        font-variant: small-caps;
+      }
+    }
+  }
+
   img {
-    border: 30px solid $color5;
+    // border: 30px solid #424242;
+    height: auto;
   }
   .accent {
     font-size: 2em;
@@ -15,15 +50,24 @@
     }
   }
   // latest work / current projects
-  h2 { 
-    @media #{$medium-up} {
-      display: inline;
-    }
+  h2.work-name { 
+    font-size: 4em;
+    font-family: 'brandon-grotesque', sans-serif;
   }
   a.active {
     //colors
   }
   p {
     display: inline;
+  }
+
+  ul.work-details {
+    h3 {
+      font-weight: bold;
+    }
+    li {
+      font-size: 1.2em;
+      font-family: 'proxima-nova', sans-serif;
+    }
   }
 }
