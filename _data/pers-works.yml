@@ -1,0 +1,16 @@
+---
+works:
+  - windfall: 
+    name: "Windfall"
+    services: "web design & development, branding, copy-writing"
+    tech_used: "NTLK, BeautifulSoup, PyML"
+    thumburl: "essache.png"
+    URL: "http://www.aflashyrhetoric.github.io/"
+    description: "Windfall attempts to glean financial insight from social media sources."
+  - chappie: 
+    name: "Hadal Scavengers"
+    services: "fiction writing"
+    tech_used: "Scrivener, writer"
+    thumburl: "hadal.jpg"
+    URL: "http://www.chappie.com"
+    description: "CHAPPIE is a robotics firm located in Chicago, Illinois. I was tasked with creating a recruitment webpage for them on their existing Ruby On Rails backend."

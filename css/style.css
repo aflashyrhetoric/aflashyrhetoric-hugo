@@ -7008,8 +7008,11 @@ a {
   left: 0px;
   font-size: 9em;
   color: white;
-  display: inline; }
+  display: inline;
+  position: relative;
+  top: -20px; }
 .section-three ul.portfolio-list {
+  float: right;
   display: inline;
   list-style-type: none; }
   .section-three ul.portfolio-list li {
@@ -7031,9 +7034,12 @@ a {
     text-align: center;
     font-family: 'brandon-grotesque';
     font-size: 2em; }
+.section-three hr.portfolio-divider {
+  width: 33%;
+  margin: auto; }
 .section-three h2.work-name {
   font-size: 4em;
-  font-family: 'brandon-grotesque', sans-serif; }
+  font-family: '', sans-serif; }
 .section-three p {
   display: inline; }
 .section-three ul.work-details h3 {
@@ -7041,6 +7047,10 @@ a {
 .section-three ul.work-details li {
   font-size: 1.2em;
   font-family: 'proxima-nova', sans-serif; }
+.section-three .show {
+  visibility: visible; }
+.section-three .hide {
+  visibility: hidden; }
 
 .section-four h2 {
   font-weight: bold; }

@@ -1,4 +1,4 @@
-.section-three {
+ .section-three {
 
   ul {
     list-style-type: none !important;
@@ -16,9 +16,12 @@
     font-size: 9em;
     color: white;
     display: inline;
+    position: relative;
+    top: -20px;
   }
 
   ul.portfolio-list {
+    float: right;
     display: inline;
     list-style-type: none;
     li {
@@ -50,9 +53,15 @@
     }
   }
   // latest work / current projects
+
+  hr.portfolio-divider {
+    width: 33%;
+    margin: auto;
+
+  }
   h2.work-name { 
     font-size: 4em;
-    font-family: 'brandon-grotesque', sans-serif;
+    font-family: '', sans-serif;
   }
   a.active {
     //colors
@@ -69,5 +78,17 @@
       font-size: 1.2em;
       font-family: 'proxima-nova', sans-serif;
     }
+  }
+
+  .personal-projects {
+    // visibility: hidden;
+  }
+
+  .show {
+    visibility: visible;
+  }
+
+  .hide {
+    visibility: hidden;
   }
 }

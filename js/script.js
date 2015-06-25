@@ -16,7 +16,7 @@ $(document).ready(function(){
     function() {
       $(this).removeClass('hoverLink');
     }
-    )
+  )
 
   // Navigation List
   $('ul.services-list li a').click(function(){
@@ -38,4 +38,18 @@ $(document).ready(function(){
     $('div#' + clickedID).addClass('active-service');
 
   });
+
+  $('a#pers-link').click(function() {
+    $('div.personal-projects').removeClass('hide');
+    $('div.personal-projects').addClass('show');
+    $('div.professional-projects').addClass('hide');
+    $('div.professional-projects').removeClass('show');
+  });
+  $('a#prof-link').click(function() {
+    $('div.professional-projects').removeClass('hide');
+    $('div.professional-projects').addClass('show');
+    $('div.personal-projects').addClass('hide');
+    $('div.personal-projects').removeClass('show');
+  });
+
 });
