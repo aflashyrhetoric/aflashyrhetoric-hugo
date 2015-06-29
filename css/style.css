@@ -7059,3 +7059,9 @@ a {
     font-family: 'rooney-web'; }
 .section-four h2 span {
   color: gray; }
+.section-four ul.blog-posts li {
+  font-size: 3em;
+  list-style-type: none; }
+  .section-four ul.blog-posts li a {
+    font-variant: small-caps;
+    font-family: 'brandon-grotesque', sans-serif; }

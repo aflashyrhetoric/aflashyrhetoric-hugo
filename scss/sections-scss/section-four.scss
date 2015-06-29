@@ -13,5 +13,15 @@
   }
 
   // blog posts
+  ul.blog-posts {
+    li {
+      font-size: 3em;
+      list-style-type: none;
+      a {
+        font-variant: small-caps;
+        font-family: 'brandon-grotesque', sans-serif;
+      }
+    }
+  }
 
 }
