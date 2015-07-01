@@ -17,6 +17,9 @@ div.about-page {
         font-family: 'museo-slab';
         font-variant: small-caps;
         font-size: 1.3em;
+        @media #{ $small-only } {
+          text-decoration: underline;
+        }
         @media #{ $medium-up } {
           font-size: 3em;
           margin-left: 30px;
