@@ -10,6 +10,22 @@
     color: #FFFFFF !important;
   }
 
+  div.section-two-header {
+    h1 {
+      color: white;
+    }
+    span {
+      color: $color3;
+      font-size: 1.2em;
+      font-family: 'jubilat', sans-serif;
+    }
+  }
+
+  hr.header-separator {
+    width: 400px;
+    margin: auto;
+  }
+
   h4.click-to-view {
     color: $color3;
   }
@@ -26,7 +42,14 @@
       a { 
         color: #545454;
         font-family: 'proxima-nova';
-        font-size: 2em;
+        @media #{ $medium-only } {
+          font-size: 1.4em;
+        }
+
+        @media #{ $large-only } {
+          font-size: 2em;
+        }
+
         &:visited {
           text-decoration: none;
         }

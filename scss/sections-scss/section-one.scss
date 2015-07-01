@@ -83,6 +83,7 @@
 
       @media #{ $medium-only } {
         top: -15px;
+        width: 400px !important; 
       }
 
       @media #{ $large-up} {
