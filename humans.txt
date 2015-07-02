@@ -1,10 +1,9 @@
 /* TEAM */
-  Developer: Daigo Fujiwara
-  Site: daigo.org
-  Twitter: @daigofuji
-  Github: @daigofuji
-  Location: Boston, MA
+  Developer: Kevin Oh
+  Site: aflashyrhetoric.github.io
+  Github: @aflashyrhetoric
+  Location: Islip, NY
 
 /* SITE */
   Standards: HTML5, MD, SCSS/CSS3, JS 
-  Components: Zurb Foundation, Jykill, jQuery, Modernizr, bower, grunt
+  Components: Zurb Foundation, Jekyll, jQuery, Modernizr, bower, grunt

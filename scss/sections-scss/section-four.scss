@@ -4,7 +4,7 @@
 
     &#hashtag-latest-header {
       font-size: 3em;
-      font-family: 'rooney-web';
+      font-family: 'museo-slab';
     }
 
   }
@@ -15,12 +15,22 @@
   // blog posts
   ul.blog-posts {
     li {
-      font-size: 3em;
       list-style-type: none;
+      margin-bottom: 50px;
       a {
+        font-size: 3em;
         font-variant: small-caps;
         font-family: 'brandon-grotesque', sans-serif;
       }
+      p {
+        font-size: 1.3em;
+        font-family: 'brandon-grotesque', sans-serif;
+      }
     }
+  }
+
+  hr.blog-post-divider {
+    width: 300px;
+    margin: auto;
   }
 }

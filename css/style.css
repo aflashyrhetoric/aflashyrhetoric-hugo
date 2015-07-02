@@ -6687,7 +6687,7 @@ a {
         line-height: 45px; } }
     @media only screen and (min-width:64.0625em) {
       .section-one ul.nav-list li {
-        font-size: 1.3em;
+        font-size: 2em;
         line-height: 45px; } }
     @media only screen and (min-width:90.063em) {
       .section-one ul.nav-list li {
@@ -6721,7 +6721,8 @@ a {
       font-family: 'museo-slab', sans-serif; } }
   @media only screen and (min-width:40.0625em) {
     .section-one h1#header {
-      font-family: 'prestige-elite-std', sans-serif; } }
+      font-family: 'raleway', sans-serif;
+      background-color: rgba(255, 255, 255, 0.5); } }
   @media only screen and (max-width: 40em) {
     .section-one h1#header {
       top: 30px;
@@ -6819,6 +6820,7 @@ a {
     margin: auto;
     margin-bottom: 20px; }
   .section-two .brand {
+    min-height: 900px;
     background-color: #373737 !important; }
     .section-two .brand p, .section-two .brand h2 {
       color: #e3e3e3 !important; }
@@ -6837,10 +6839,10 @@ a {
       .section-two .service {
         display: none;
         padding-top: 50px;
-        min-height: 500px; } }
+        min-height: 750px; } }
     @media only screen and (min-width:64.0625em) {
       .section-two .service {
-        min-height: 700px; } }
+        min-height: 680px; } }
     .section-two .service h2.service-name {
       font-size: 3em;
       font-family: 'museo-slab';
@@ -6900,7 +6902,7 @@ a {
         font-family: 'museo-slab', sans-serif; }
       @media only screen and (min-width:40.0625em) and (max-width:64em) {
         .section-two .first-service .features {
-          top: 30px; } }
+          top: 120px; } }
       @media only screen and (min-width:64.0625em) and (max-width:90em) {
         .section-two .first-service .features {
           top: 120px; } }
@@ -6941,7 +6943,7 @@ a {
         font-family: 'museo-slab', sans-serif; }
       @media only screen and (min-width:40.0625em) and (max-width:64em) {
         .section-two .second-service .features {
-          top: 30px; } }
+          top: 120px; } }
       @media only screen and (min-width:64.0625em) and (max-width:90em) {
         .section-two .second-service .features {
           top: 120px; } }
@@ -6973,7 +6975,7 @@ a {
         font-family: 'museo-slab', sans-serif; }
       @media only screen and (min-width:40.0625em) and (max-width:64em) {
         .section-two .third-service .features {
-          top: 30px; } }
+          top: 120px; } }
       @media only screen and (min-width:64.0625em) and (max-width:90em) {
         .section-two .third-service .features {
           top: 120px; } }
@@ -7010,7 +7012,7 @@ a {
         font-family: 'museo-slab', sans-serif; }
       @media only screen and (min-width:40.0625em) and (max-width:64em) {
         .section-two .fourth-service .features {
-          top: 30px; } }
+          top: 120px; } }
       @media only screen and (min-width:64.0625em) and (max-width:90em) {
         .section-two .fourth-service .features {
           top: 120px; } }
@@ -7089,15 +7091,22 @@ a {
   font-weight: bold; }
   .section-four h2#hashtag-latest-header {
     font-size: 3em;
-    font-family: 'rooney-web'; }
+    font-family: 'museo-slab'; }
 .section-four h2 span {
   color: gray; }
 .section-four ul.blog-posts li {
-  font-size: 3em;
-  list-style-type: none; }
+  list-style-type: none;
+  margin-bottom: 50px; }
   .section-four ul.blog-posts li a {
+    font-size: 3em;
     font-variant: small-caps;
     font-family: 'brandon-grotesque', sans-serif; }
+  .section-four ul.blog-posts li p {
+    font-size: 1.3em;
+    font-family: 'brandon-grotesque', sans-serif; }
+.section-four hr.blog-post-divider {
+  width: 300px;
+  margin: auto; }
 
 /* about */
 /*********************************/
@@ -7118,7 +7127,7 @@ div.about-page {
           text-decoration: underline; } }
       @media only screen and (min-width:40.0625em) {
         div.about-page header ul.about-list li {
-          font-size: 3em;
+          font-size: 2em;
           margin-left: 30px; } }
       div.about-page header ul.about-list li a {
         color: #a32200; }
@@ -7129,7 +7138,7 @@ div.about-page {
     font-size: 3.4em; }
   div.about-page header h2 {
     font-family: 'prestige-elite-std', sans-serif;
-    font-size: 3.3em;
+    font-size: 4em;
     font-weight: bold; }
   div.about-page header h3 {
     font-family: 'prestige-elite-std', sans-serif; }
@@ -7143,6 +7152,10 @@ div.about-page {
     @media only screen and (min-width:40.0625em) {
       div.about-page p {
         font-size: 1.4em; } }
+  div.about-page hr.header-divider {
+    width: 600px;
+    margin: auto;
+    margin-bottom: 80px; }
   div.about-page p span.big {
     font-size: 2em; }
   div.about-page p span.bold {

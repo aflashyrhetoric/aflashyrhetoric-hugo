@@ -95,6 +95,7 @@
     margin-bottom: 20px;
   }
   .brand {
+    min-height: 900px;
     background-color: #373737 !important;
     p, h2 {
       color: #e3e3e3 !important;
@@ -110,6 +111,8 @@
       display: block !important;
     }
   }
+
+  //SRVC
   .service {
     text-align: center;
     @media #{ $small-only } {
@@ -120,10 +123,10 @@
     @media #{ $medium-up } {
       display: none;
       padding-top: 50px;
-      min-height: 500px;
+      min-height: 750px;
     }
     @media #{ $large-up } {
-      min-height: 700px;
+      min-height: 680px;
     }
 
     //"services"
@@ -206,7 +209,7 @@
       }
       position: relative;
       @media #{ $medium-only } {
-        top: 30px;
+        top: 120px;
       }
       @media #{ $large-only } {
         top: 120px;
@@ -261,7 +264,7 @@
       }
       position: relative;
       @media #{ $medium-only } {
-        top: 30px;
+        top: 120px;
       }
       @media #{ $large-only } {
         top: 120px;
@@ -303,7 +306,7 @@
       }
       position: relative;
       @media #{ $medium-only } {
-        top: 30px;
+        top: 120px;
       }
       @media #{ $large-only } {
         top: 120px;
@@ -353,7 +356,7 @@
       }
       position: relative;
       @media #{ $medium-only } {
-        top: 30px;
+        top: 120px;
       }
       @media #{ $large-only } {
         top: 120px;
