@@ -55,24 +55,23 @@ div.about-page {
 
   h2.about-text {
     @media #{ $medium-up } {
-      margin-bottom: 30px;
+      margin-top: 20px;
+      font-size: 4em;
     }
   }
   p {
     font-family: 'proxima-nova', sans-serif;
     font-size: 1.2em;
     @media #{ $medium-up } {
-      font-size: 1.8em;
+      font-size: 1.4em;
     }
   }
 
   p span.about-accent {
   }
-
   p span.big {
     font-size: 2em;
   }
-
   p span.bold {
     font-weight: bold;
   }

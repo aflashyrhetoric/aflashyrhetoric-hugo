@@ -6616,17 +6616,6 @@ a {
 .font-heavy {
   font-weight: 800; }
 
-.headers {
-  font-size: 2.5em;
-  font-family: 'Brandon-Grotesque', sans-serif; }
-
-.subheaders {
-  font-family: 'proxima-nova', sans-serif;
-  color: #2b2b2b; }
-
-.subtle {
-  color: #a5a5a5; }
-
 .mini-hr {
   width: 30px;
   margin: auto; }
@@ -6674,6 +6663,7 @@ a {
     background-position: 50% 50%; } }
 .section-one ul.nav-list {
   list-style-type: none;
+  display: inline;
   margin-left: 0; }
   @media only screen and (max-width: 40em) {
     .section-one ul.nav-list {
@@ -6681,27 +6671,28 @@ a {
   @media only screen and (min-width:40.0625em) {
     .section-one ul.nav-list {
       text-align: right; } }
-.section-one ul li {
-  font-family: 'jubilat'; }
-  .section-one ul li a {
-    color: white; }
-  @media only screen and (max-width: 40em) {
-    .section-one ul li {
-      font-size: 1em;
-      line-height: 14px;
-      display: inline; } }
-  @media only screen and (min-width:40.0625em) and (max-width:64em) {
-    .section-one ul li {
-      font-size: 1.3em;
-      line-height: 34px; } }
-  @media only screen and (min-width:64.0625em) {
-    .section-one ul li {
-      font-size: 1.3em;
-      line-height: 45px; } }
-  @media only screen and (min-width:90.063em) {
-    .section-one ul li {
-      font-size: 2em;
-      line-height: 50px; } }
+  .section-one ul.nav-list li {
+    font-family: 'jubilat'; }
+    .section-one ul.nav-list li a {
+      color: white;
+      text-align: center; }
+    @media only screen and (max-width: 40em) {
+      .section-one ul.nav-list li {
+        font-size: 1em;
+        display: inline;
+        line-height: 14px; } }
+    @media only screen and (min-width:40.0625em) and (max-width:64em) {
+      .section-one ul.nav-list li {
+        font-size: 1.7em;
+        line-height: 45px; } }
+    @media only screen and (min-width:64.0625em) {
+      .section-one ul.nav-list li {
+        font-size: 1.3em;
+        line-height: 45px; } }
+    @media only screen and (min-width:90.063em) {
+      .section-one ul.nav-list li {
+        font-size: 2em;
+        line-height: 50px; } }
 @media only screen and (max-width: 40em) {
   .section-one .main-header {
     text-align: center;
@@ -6711,12 +6702,12 @@ a {
     text-align: right;
     font-size: 3em; } }
 .section-one .main-header img {
-  position: relative;
-  border-radius: 4px; }
+  position: relative; }
   @media only screen and (min-width:40.0625em) and (max-width:64em) {
     .section-one .main-header img {
       top: -15px;
-      width: 400px !important; } }
+      width: 400px !important;
+      border-radius: 4px; } }
   @media only screen and (min-width:64.0625em) {
     .section-one .main-header img {
       width: 400px !important;
@@ -6724,15 +6715,20 @@ a {
       top: -15px; } }
 .section-one h1#header {
   position: relative;
-  font-family: 'prestige-elite-std', sans-serif;
   color: #2f2f2f; }
   @media only screen and (max-width: 40em) {
     .section-one h1#header {
-      top: 50px;
+      font-family: 'museo-slab', sans-serif; } }
+  @media only screen and (min-width:40.0625em) {
+    .section-one h1#header {
+      font-family: 'prestige-elite-std', sans-serif; } }
+  @media only screen and (max-width: 40em) {
+    .section-one h1#header {
+      top: 30px;
       color: white; } }
   @media only screen and (min-width:40.0625em) and (max-width:64em) {
     .section-one h1#header {
-      top: 160px;
+      top: 100px;
       font-size: 5em; } }
   @media only screen and (min-width:64.0625em) {
     .section-one h1#header {
@@ -6752,7 +6748,7 @@ a {
     .section-one p#subheader {
       color: black;
       font-size: 1.3em;
-      top: 175px; } }
+      top: 125px; } }
   @media only screen and (min-width:64.0625em) {
     .section-one p#subheader {
       font-size: 1.4em;
@@ -6766,8 +6762,16 @@ a {
   /*********************************/
   /******* SERVICES * SERVICES *****/
   /*********************************/ }
+  .section-two a {
+    color: white;
+    text-decoration: underline; }
+    .section-two a:hover, .section-two a:visited {
+      color: white; }
   .section-two .hoverLink {
     color: white !important; }
+  @media only screen and (max-width: 40em) {
+    .section-two span.subtle {
+      color: #aa5050; } }
   .section-two div.section-two-header h1 {
     color: white; }
   .section-two div.section-two-header span {
@@ -6800,15 +6804,20 @@ a {
           text-decoration: none; }
         .section-two ul.services-list li a.active {
           color: #dadada; }
-  .section-two h2.core-services {
-    font-family: 'jubilat', sans-serif;
-    font-size: 3em; }
-    @media only screen and (max-width: 40em) {
-      .section-two h2.core-services {
-        color: #cecece !important; } }
-    @media only screen and (min-width:40.0625em) {
-      .section-two h2.core-services {
-        color: #cecece !important; } }
+  @media only screen and (max-width: 40em) {
+    .section-two h2.core-services {
+      color: white !important;
+      font-size: 2em;
+      font-family: 'raleway', sans-serif; } }
+  @media only screen and (min-width:40.0625em) {
+    .section-two h2.core-services {
+      font-family: 'jubilat', sans-serif;
+      font-size: 3em;
+      color: #cecece !important; } }
+  .section-two hr.core-services-divider {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 20px; }
   .section-two .brand {
     background-color: #373737 !important; }
     .section-two .brand p, .section-two .brand h2 {
@@ -6835,22 +6844,31 @@ a {
     .section-two .service h2.service-name {
       font-size: 3em;
       font-family: 'museo-slab';
-      line-height: 39px; }
-    .section-two .service p.service-description {
-      font-size: 1.4em;
-      font-family: 'rooney-web', sans-serif; }
-      @media only screen and (min-width:64.0625em) {
-        .section-two .service p.service-description {
-          font-size: 2em; } }
-    .section-two .service i.service-icon {
-      border-radius: 130px; }
+      line-height: 39px;
+      margin-bottom: 30px; }
       @media only screen and (max-width: 40em) {
-        .section-two .service i.service-icon {
-          margin-top: 30px; } }
+        .section-two .service h2.service-name {
+          color: white; } }
+    .section-two .service p.service-description {
+      font-size: 1.4em; }
+      @media only screen and (max-width: 40em) {
+        .section-two .service p.service-description {
+          color: white;
+          font-family: 'proxima-nova', sans-serif; } }
       @media only screen and (min-width:40.0625em) {
-        .section-two .service i.service-icon {
-          margin-top: 30px;
-          margin-bottom: 30px; } }
+        .section-two .service p.service-description {
+          font-size: 2em;
+          font-family: 'rooney-web', sans-serif; } }
+    @media only screen and (max-width: 40em) {
+      .section-two .service i.service-icon {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        color: #aa1f5e; } }
+    @media only screen and (min-width:40.0625em) {
+      .section-two .service i.service-icon {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 130px; } }
   .section-two .past-work-description-labels {
     font-weight: bold; }
     @media only screen and (min-width:64.0625em) {
@@ -7117,13 +7135,14 @@ div.about-page {
     font-family: 'prestige-elite-std', sans-serif; }
   @media only screen and (min-width:40.0625em) {
     div.about-page h2.about-text {
-      margin-bottom: 30px; } }
+      margin-top: 20px;
+      font-size: 4em; } }
   div.about-page p {
     font-family: 'proxima-nova', sans-serif;
     font-size: 1.2em; }
     @media only screen and (min-width:40.0625em) {
       div.about-page p {
-        font-size: 1.8em; } }
+        font-size: 1.4em; } }
   div.about-page p span.big {
     font-size: 2em; }
   div.about-page p span.bold {
@@ -7135,3 +7154,49 @@ div.about-page {
     @media only screen and (min-width:40.0625em) {
       div.about-page a.return-home {
         font-size: 2em; } }
+
+/* blog */
+header.blog-header {
+  min-height: 300px;
+  background: url('../img/iphone-bg.jpg') 50% 30% no-repeat;
+  background-position: 50% 70%;
+  background-size: cover;
+  padding-top: 100px; }
+  header.blog-header h2 {
+    font-size: 5em;
+    font-family: 'raleway', sans-serif;
+    color: white; }
+  header.blog-header p {
+    color: white;
+    width: 400px;
+    letter-spacing: 10px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: 'raleway', sans-serif; }
+  header.blog-header span {
+    color: #aa1f5e; }
+
+ul.blog-post-list {
+  list-style-type: none; }
+  ul.blog-post-list li {
+    font-family: 'raleway', sans-serif;
+    margin-bottom: 30px; }
+    ul.blog-post-list li a {
+      font-size: 3em; }
+      ul.blog-post-list li a.button {
+        color: #aa1f5e;
+        background-color: #e9e9e9; }
+    ul.blog-post-list li p {
+      font-size: 1em;
+      color: #424242; }
+    ul.blog-post-list li p.date {
+      color: #6b6b6b; }
+
+/* post */
+div.post-container {
+  padding-top: 60px;
+  width: 800px;
+  margin: auto; }
+  div.post-container h1 {
+    font-weight: bold;
+    text-align: center; }

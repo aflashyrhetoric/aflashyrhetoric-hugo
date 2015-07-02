@@ -5,10 +5,28 @@
 
   background-color: #161616;
 
+  // CONSTANTS
+
+  a {
+    color: white;
+    text-decoration: underline;
+    &:hover, &:visited {
+      color: white;
+    }
+  }
+
   //utility classes 
   .hoverLink {
     color: #FFFFFF !important;
   }
+
+  span.subtle {
+    @media #{ $small-only } {
+      color: #AA5050;
+    }
+  }
+
+  // END UTILITY CLASSES
 
   div.section-two-header {
     h1 {
@@ -60,14 +78,21 @@
     }
   }
   h2.core-services {
-    font-family: 'jubilat', sans-serif;
-    font-size: 3em;
     @media #{ $small-only } {
-      color: #CECECE !important;
+      color: #FFFFFF !important;
+      font-size: 2em;
+      font-family: 'raleway',sans-serif;
     }
     @media #{ $medium-up } {
+      font-family: 'jubilat', sans-serif;
+      font-size: 3em;
       color: #CECECE !important;
     }
+  }
+  hr.core-services-divider {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 20px;
   }
   .brand {
     background-color: #373737 !important;
@@ -106,24 +131,33 @@
       font-size: 3em;
       font-family: 'museo-slab';
       line-height: 39px;
+      margin-bottom: 30px;
+      @media #{ $small-only } {
+        color: white;
+      }
     }
     p.service-description{
       font-size: 1.4em;
-      @media #{ $large-up } {
-        font-size: 2em;
-        
+      @media #{ $small-only } {
+        color: white;
+        font-family: 'proxima-nova', sans-serif;
       }
-      font-family: 'rooney-web', sans-serif;
+      @media #{ $medium-up } {
+        font-size: 2em;
+        font-family: 'rooney-web', sans-serif;
+      }
     }
     i.service-icon{
       // space under an icon
-      border-radius: 130px;
       @media #{ $small-only } {
-        margin-top: 30px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        color: $color3;
       }
       @media #{ $medium-up } {
         margin-top: 30px;
         margin-bottom: 30px;
+        border-radius: 130px;
       }
     }
   }
