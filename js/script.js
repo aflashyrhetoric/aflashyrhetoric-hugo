@@ -51,5 +51,4 @@ $(document).ready(function(){
     $('div.personal-projects').addClass('hide');
     $('div.personal-projects').removeClass('show');
   });
-
 });
