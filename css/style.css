@@ -6764,8 +6764,7 @@ a {
   /******* SERVICES * SERVICES *****/
   /*********************************/ }
   .section-two a {
-    color: white;
-    text-decoration: underline; }
+    color: white; }
     .section-two a:hover, .section-two a:visited {
       color: white; }
   .section-two .hoverLink {
@@ -6804,7 +6803,8 @@ a {
         .section-two ul.services-list li a:visited {
           text-decoration: none; }
         .section-two ul.services-list li a.active {
-          color: #dadada; }
+          color: #dadada;
+          text-decoration: underline; }
   @media only screen and (max-width: 40em) {
     .section-two h2.core-services {
       color: white !important;
@@ -7032,6 +7032,9 @@ a {
     background-color: #373737;
     color: #ebebeb; }
 
+/********************************/
+/*****PORTFOLIO SECTION *********/
+/********************************/
 .section-three ul {
   list-style-type: none !important; }
 .section-three .portfolio-section {

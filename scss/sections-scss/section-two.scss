@@ -9,7 +9,6 @@
 
   a {
     color: white;
-    text-decoration: underline;
     &:hover, &:visited {
       color: white;
     }
@@ -73,6 +72,7 @@
         }
         &.active {
           color: #DADADA;
+          text-decoration: underline;
         }
       }
     }
