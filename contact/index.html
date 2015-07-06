@@ -1,0 +1,46 @@
+---
+layout: page
+title: Contact
+description: Contact Me
+keywords: web development, webdev, webdesign, kevin oh
+---
+<div class="row full-width contact-form-container">
+  <div class="columns text-center small-12 small-centered medium-6">
+    <ul class="mts thankyou-list">
+      <li><a href="/home">home</a></li>
+      <li><a href="/blog">blog</a></li>
+      <li><a href="/about">about</a></li>
+      <li><a href="/portfolio">portfolio</a></li>
+    </ul>
+    <hr class="lg-hr"> <h1>contact</h1>
+    <p>I try to respond to all messages within 48 hours. </p>
+    <p> All comments, questions, and inquiries wholeheartedly welcomed!</p>
+    <div class="contact-form mbm">
+      <form
+        class="text-left"
+        action="https://getsimpleform.com/messages?form_api_token=fd0d36bbabe2ad4278b6112a127c82a1"
+        method="post">
+        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+        <input type='hidden' name='redirect_to' value='http://localhost:4000/thankyou' />
+
+        <!--Name -->
+        <input type='text' id="name" name='name'/>
+        <label for="name">Name</label>
+
+        <!--Email -->
+        <input type='text' id="email" name='email' />
+        <label for="email">Email</label>
+        <!--Message -->
+        <textarea name="message" id="message" cols="30" rows="10" class="materialize-textarea"></textarea>
+        <label for="message">Message</label>
+        <!--Submit -->
+        <input 
+        class="mtm contact-submit btn btn-large" type='submit' value='Submit' />
+      </form>
+    </div>
+    <!--End of contact form -->
+    <div class="link-container mtl">
+      <a href="/">Go Back</a>
+    </div>
+  </div>
+</div>

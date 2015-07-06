@@ -6616,8 +6616,24 @@ a {
 .font-heavy {
   font-weight: 800; }
 
-.mini-hr {
+.xs-hr {
   width: 30px;
+  margin: auto; }
+
+.sm-hr {
+  width: 70px;
+  margin: auto; }
+
+.md-hr {
+  width: 300px;
+  margin: auto; }
+
+.lg-hr {
+  width: 500px;
+  margin: auto; }
+
+.xl-hr {
+  width: 700px;
   margin: auto; }
 
 .color-accent {
@@ -7157,8 +7173,7 @@ div.about-page {
         font-size: 1.4em; } }
   div.about-page hr.header-divider {
     width: 600px;
-    margin: auto;
-    margin-bottom: 80px; }
+    margin: auto; }
   div.about-page p span.big {
     font-size: 2em; }
   div.about-page p span.bold {
@@ -7216,3 +7231,60 @@ div.post-container {
   div.post-container h1 {
     font-weight: bold;
     text-align: center; }
+
+/* contact */
+/*********************************/
+/******* CONTACT FORM PAGE *******/
+/*********************************/
+.contact-form-container h1 {
+  font-family: 'museo-slab', sans-serif; }
+.contact-form-container p {
+  font-family: 'raleway', sans-serif;
+  font-size: 1em;
+  line-height: 15px; }
+
+.contact-form form input#name, .contact-form form input#email, .contact-form form textarea {
+  background-color: #efefef;
+  padding-left: 15px; }
+.contact-form form input#email, .contact-form form textarea#message {
+  margin-top: 40px; }
+.contact-form label {
+  font-family: 'raleway', sans-serif;
+  font-size: 1.5em; }
+
+.thank-you-container h1 {
+  font-family: 'raleway', sans-serif; }
+.thank-you-container p {
+  font-family: 'raleway', sans-serif;
+  font-size: 1.3em; }
+
+ul.thankyou-list {
+  list-style-type: none; }
+  ul.thankyou-list li {
+    display: inline;
+    font-family: 'museo-slab';
+    font-variant: small-caps;
+    font-size: 1.3em; }
+    @media only screen and (max-width: 40em) {
+      ul.thankyou-list li {
+        text-decoration: underline; } }
+    @media only screen and (min-width:40.0625em) {
+      ul.thankyou-list li {
+        font-size: 2em;
+        margin-left: 30px; } }
+    ul.thankyou-list li a {
+      color: #a32200; }
+      ul.thankyou-list li a:visited, ul.thankyou-list li a:hover {
+        color: #a32200; }
+
+/* portfolio */
+/*********************************/
+/******* Portfolio Dedicated Page *****/
+/*********************************/
+.portfolio-prescreen h2 {
+  color: #717171;
+  font-family: 'prestige-elite-std', sans-serif; }
+.portfolio-prescreen ul.portfolio-chooser {
+  list-style-type: none; }
+  .portfolio-prescreen ul.portfolio-chooser li {
+    display: inline; }

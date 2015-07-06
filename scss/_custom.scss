@@ -34,8 +34,29 @@ a {
 // Custom Utility Classes
 
 
-.mini-hr {
+.xs-hr {
   width: 30px;
+  margin: auto;
+}
+
+.sm-hr {
+  width: 70px;
+  margin: auto;
+}
+
+
+.md-hr {
+  width: 300px;
+  margin: auto;
+}
+
+.lg-hr {
+  width: 500px;
+  margin: auto;
+}
+
+.xl-hr {
+  width: 700px;
   margin: auto;
 }
 
