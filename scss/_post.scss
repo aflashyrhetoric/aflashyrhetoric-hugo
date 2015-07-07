@@ -1,10 +1,18 @@
 div.post-container {
-  padding-top: 60px;
-  width: 800px;
-  margin: auto;
+  display: block;
+  @media #{ $medium-only } {
+    padding-top: 60px;
+    width: 700px;
+    margin: auto;
+  }
+  @media #{ $large-up } {
+    padding-top: 80px;
+    width: 1000px;
+    margin: auto;
+  }
 
-  h1 {
+  // Text
+  h1{
     font-weight: bold;
-    text-align: center;
   }
 }

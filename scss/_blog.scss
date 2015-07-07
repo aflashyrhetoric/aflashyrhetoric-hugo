@@ -1,4 +1,17 @@
 // KODEBLOG
+
+// Navbar
+ul.blog-navbar {
+  li{
+    font-size: 2em;
+    font-family: 'museo-slab', sans-serif;
+    a {
+      color: $color3;
+    }
+  }
+}
+
+// Hero
 header.blog-header {
   min-height: 300px;
 
@@ -8,7 +21,12 @@ header.blog-header {
   padding-top: 100px;
 
   h2 {
-    font-size: 5em;
+    @media #{ $small-only } {
+      font-size: 4em;
+    }
+    @media #{ $medium-up } {
+      font-size: 5em;
+    }
     font-family: 'raleway', sans-serif;
     color: white;
   }

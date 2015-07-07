@@ -25,10 +25,9 @@ div.about-page {
           margin-left: 30px;
         }
         a {
-          $about-link-color: #A32200;
-          color: $about-link-color;
+          color: $color3;
           &:visited, &:hover {
-            color: $about-link-color;
+            color: $color3;
           }
         }
       }

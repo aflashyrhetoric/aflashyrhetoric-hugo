@@ -3,6 +3,8 @@
 /********************************/
  .section-three {
 
+  background-color: #E3E3E3;
+
   ul {
     list-style-type: none !important;
   }
@@ -12,11 +14,19 @@
     @media #{ $large-up } {
       min-height: 250px;
     }
+    @media #{ $small-only } {
+      text-align: center;
+    }
   }
 
   h2.portfolio-header {
     left: 0px;
-    font-size: 9em;
+    @media #{ $small-only } {
+      font-size: 4em;
+    }
+    @media #{ $medium-up } {
+      font-size: 9em;
+    }
     color: white;
     display: inline;
     position: relative;
@@ -24,7 +34,9 @@
   }
 
   ul.portfolio-list {
-    float: right;
+    @media #{ $medium-up } {
+     float: right; 
+    }
     display: inline;
     list-style-type: none;
     li {
@@ -48,8 +60,8 @@
     vertical-align: middle;
   }
   .project {
-    margin-bottom: 15px;
-    a {
+    padding-bottom: 30px;
+   a {
       text-align: center;
       font-family: 'brandon-grotesque';
       font-size: 2em;
@@ -66,8 +78,14 @@
     font-size: 4em;
     font-family: 'brandon-grotesque', sans-serif;
   }
-  a.active {
-    //colors
+  a.service-link {
+    color: white;
+
+  }
+  a.work-link {
+    @media #{ $small-only } {
+      font-size: 1.5em;
+    }
   }
   p {
     display: inline;
@@ -76,6 +94,10 @@
   ul.work-details {
     h3 {
       font-weight: bold;
+      font-size: 1.0em !important;
+      @media #{ $small-only } {
+        font-size: 2em !important;
+      }
     }
     li {
       font-size: 1.2em;

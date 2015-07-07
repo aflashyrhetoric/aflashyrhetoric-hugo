@@ -7,10 +7,10 @@ works:
     thumburl: "essache.png"
     URL: "http://www.essache.com"
     description: "ESSACHE is a manufacturing and distribution company with locations in the United States, China, and South Korea. I had the privilege of helping them design an online catalog for their product line, complete with a CMS."
-  - chappie: 
-    name: "Chappie"
+  - personal portfolio: 
+    name: "Personal Portfolio"
     services: "web design & development, branding, copy-writing"
-    tech_used: "Ruby on Rails, Bootstrap, Glyphicons, Typekit"
-    thumburl: "chappie.jpg"
-    URL: "http://www.chappie.com"
-    description: "CHAPPIE is a robotics firm located in Chicago, Illinois. I was tasked with creating a recruitment webpage for them on their existing Ruby On Rails backend."
+    tech_used: "Jekyll, Foundation SCSS, Font-Awesome, Typekit, Animate.CSS"
+    thumburl: "portfolio.png"
+    URL: "http://www.kevinoh.me"
+    description: "My personal portfolio - the website you're currently browsing. I wanted a simple, lightweight website to display my past work and discuss my processes. Jekyll & Github Pages was the perfect fit."

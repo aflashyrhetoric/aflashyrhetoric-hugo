@@ -2,6 +2,8 @@
 /******* CONTACT FORM PAGE *******/
 /*********************************/
 
+@import "colors";
+
 .contact-form-container {
   h1 {
     font-family: 'museo-slab', sans-serif;
@@ -45,23 +47,23 @@
 
 ul.thankyou-list {
   list-style-type: none;
+  text-align: center;
   li {
-    display: inline;
+    display: inline-block;
     font-family: 'museo-slab';
     font-variant: small-caps;
-    font-size: 1.3em;
     @media #{ $small-only } {
+      font-size: 1.5em;
       text-decoration: underline;
     }
     @media #{ $medium-up } {
       font-size: 2em;
-      margin-left: 30px;
+      margin-right: 15px;
     }
     a {
-      $about-link-color: #A32200;
-      color: $about-link-color;
+      color: $color3;
       &:visited, &:hover {
-        color: $about-link-color;
+        color: $color3;
       }
     }
   }

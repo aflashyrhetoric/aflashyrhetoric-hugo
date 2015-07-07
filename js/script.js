@@ -16,7 +16,7 @@ $(document).ready(function(){
     function() {
       $(this).removeClass('hoverLink');
     }
-  )
+  );
 
   // Navigation List
   $('ul.services-list li a').click(function(){
@@ -51,4 +51,16 @@ $(document).ready(function(){
     $('div.personal-projects').addClass('hide');
     $('div.personal-projects').removeClass('show');
   });
+
+  // Portfolio scripts
+
+ $('.portfolio-option').hover(
+    function() { 
+      $(this).addClass('animated pulse');
+    },
+    function() {
+      $(this).removeClass('animated pulse');
+    }
+  );
+
 });

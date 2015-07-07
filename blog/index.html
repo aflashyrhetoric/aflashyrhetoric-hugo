@@ -4,16 +4,27 @@ title: Blog
 description: KevinOh's Blog
 keywords: web development, webdev, webdesign, kevin oh
 ---
+<div class="full-width">
+  <a name="top"></a>
+  <div class="columns small-centered small-12 medium-5">
+    <ul class="blog-navbar inline-list mbn mts pbs">
+      <li><a href="/">home</a></li>
+      <li><a href="/blog">blog</a></li>
+      <li><a href="/portfolio">portfolio</a></li>
+      <li><a href="/contact">contact</a></li>
+    </ul>
+    
+  </div>
+</div>
 <div class="row full-width ptn">
-    <header class="blog-header text-center pvl">
-      <h2>KODE<span>BLOG</span></h2>
-      <p>kevin oh dev experiments</p>
-    </header>
+  <header class="blog-header text-center pvl">
+    <h2>KODE<span>BLOG</span></h2>
+    <p>kevin oh dev experiments</p>
+  </header>
   <div class="small-12 small-centered medium-6 columns">
     <ul class="blog-post-list mtl">
       {% for post in site.posts %}
         <li>
-
           <p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
           <a  href="{{ post.url }}"> {{ post.title }}  </a>
           <p>
@@ -25,3 +36,9 @@ keywords: web development, webdev, webdesign, kevin oh
     </ul>
   </div>
 </div>
+<div class="row full-width">
+  <row class="columns small-centered text-center small-12 medium-2">
+    <a href="#top">Return To Top</a>
+  </row>
+</div>
+

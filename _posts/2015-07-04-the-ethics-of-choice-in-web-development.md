@@ -5,6 +5,7 @@ excerpt: In the past five years or so, the web development scene has seen a surg
 ---
 
 # The Ethics Of Choice in Web Development
+<br>
 
 ## First, The Good.
 In the past five years or so, the web development scene has seen a surge of new technologies that simplify the process of building complicated websites. Many of the technical, lower-level aspects of web development are abstracted away into neat little libraries. This has made many developers very happy. 
@@ -71,3 +72,9 @@ Kevin Oh
 *wdkevo@gmail.com*
 
 PS: Send me an email at wdkevo@gmail.com! I look forward to all messages. Cheers.
+
+
+*****
+
+# <a class="btn btn-large" href="../../../../blog">RETURN TO BLOG</a>
+<br><br>
