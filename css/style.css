@@ -7336,8 +7336,9 @@ ul.portfolio-navbar {
   text-align: center; }
   ul.portfolio-navbar li {
     display: inline;
-    font-size: 3em;
+    font-size: 2em;
     margin-right: 30px;
+    font-family: 'museo-slab', sans-serif;
     font-variant: small-caps; }
     ul.portfolio-navbar li a {
       color: #aa1f5e; }
