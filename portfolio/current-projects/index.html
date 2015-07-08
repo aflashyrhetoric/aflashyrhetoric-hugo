@@ -15,13 +15,13 @@ keywords: web development, webdev, webdesign, kevin oh
   <div class="columns small-centered small-12 medium-5 text-center">
     <i class="fa fa-laptop fa-inverse fa-4x mtl mbs"></i>
     <h2>Current Projects</h2>
-    <p>This is a collection of projects that I'm currently working on, including personal projects, fun side projects, and the like. I hope you enjoy.</p>
+    <p>This is a collection of projects that I'm currently working on, including personal projects, fun side projects, and the like. They're not necessarily web-related - I love writing and photography as well! I hope you enjoy.</p>
     <a href="/portfolio/past-work">view my past work</a>
   </div>
 </div>
 {% for work in site.data.pers-works.works limit:2 %}
   <div class="row professional-projects">
-    <div class="small-4 small-centered medium-3 large-4 columns end">
+    <div class="small-10 small-centered medium-3 large-4 columns end">
       <h2 class="work-name text-center mbn">{{ work.name }}</h2>
     </div>
     <hr class="pvn portfolio-divider">
@@ -49,13 +49,13 @@ keywords: web development, webdev, webdesign, kevin oh
       end
       columns">
       <ul class="work-details">
-        <h3 class="mtn show-for-medium-up">services rendered</h3>
+        <h3 class="mtn show-for-show-up">services rendered</h3>
         <li>{{ work.services }} </li>
-        <h3 class="mtm show-for-medium-up">about</h3>
+        <h3 class="mtm show-for-show-up">about</h3>
         <li>
           {{ work.description }}
         </li>
-        <h3 class="mtm show-for-medium-up">technologies used</h3>
+        <h3 class="mtm show-for-show-up">technologies used</h3>
         <li>{{ work.tech_used }} </li>
       </ul>
     </div>
