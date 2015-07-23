@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How To Find Clients Without Annoying Everyone 
-excerpt: Hello
+excerpt: Being a freelancer, finding people to work with you is no longer as trivial as accepting an assignment from your super. In the beginning stages of a freelancing career, and when the "work pipeline" starts to run dry - actively searching for clients is a must. 
 ---
 
 # How To Find Clients Without Annoying Everyone
