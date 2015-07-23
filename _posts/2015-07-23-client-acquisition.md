@@ -5,6 +5,7 @@ excerpt: Being a freelancer, finding people to work with you is no longer as tri
 ---
 
 # How To Find Clients Without Annoying Everyone
+
 ## AKA, Client Acquisition Strategy
 
 This is a big one: client acquisition. Being a freelancer, finding people to work with you is no longer as trivial as accepting an assignment from your super. In the beginning stages of a freelancing career, and when the "work pipeline" starts to run dry - actively searching for clients is a must. But this makes many people uncomfortable. 
