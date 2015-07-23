@@ -1,7 +1,7 @@
-	---
+---
 title: The Ethics Of Choice In Web Development
 layout: post
-excerpt: Shiny new tools for developers don't always mean benefits for the client. We've got a choice to make...about choice.
+excerpt: It's up to us to make the big choices, not the client. 
 ---
 
 # The Ethics Of Choice in Web Development
