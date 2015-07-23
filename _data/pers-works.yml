@@ -1,5 +1,19 @@
 ---
 works:
+  - tagbrowsr: 
+    name: "Tagbrowsr"
+    services: "independent programming project" 
+    tech_used: "PHP, Javascript, jQuery"
+    thumburl: "tagbrowser.png"
+    URL: "http://aflashyrhetoric.com/tags" 
+    description: "A silly project to get me introduced to the world of APIs. I used the Tumblr API along with some simple javascript to create a site that allows you to browse the hashtags on various Tumblrs."
+  - promptsgenerator: 
+    name: "Writing Prompts Generator"
+    services: "independent programming project" 
+    tech_used: "PHP, Javascript, jQuery"
+    thumburl: "prompts.png"
+    URL: "http://aflashyrhetoric.com/prompts" 
+    description: "A dead simple utility for a creative writing class I was taking at the time. Presents a randomized two word phrase upon refresh."
   - windfall: 
     name: "Windfall"
     services: "independent programming project" 
