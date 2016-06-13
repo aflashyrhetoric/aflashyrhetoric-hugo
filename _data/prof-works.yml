@@ -1,5 +1,12 @@
 ---
 works:
+  - adelie:
+    name: "Adelie"
+    services: "web design & development, branding, copy-writing"
+    tech_used: "Laravel, Zurb Foundation, AnimateCSS, Gulp, Forge, DigitalOcean, Font Awesome."
+    thumburl: "adelie.png"
+    URL: "http://adelieweb.com"
+    description: "ADELIE is the web development & graphic design agency I co-founded in January 2016. The website was designed and hand-coded from scratch in Laravel. Laravel was chosen over more conventional alternatives (IE: WordPress/SquareSpace) so that the site could be used for more than serving static pages in the future. Currently, another internal side-project is being planned that will utilize this flexibility."
   - essache: 
     name: "Essache"
     services: "web design & development, branding, copy-writing"

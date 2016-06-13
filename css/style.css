@@ -6798,7 +6798,7 @@ a {
     width: 400px;
     margin: auto; }
   .section-two h4.click-to-view {
-    color: #aa1f5e; }
+    color: gray; }
   .section-two ul.services-list {
     height: 100px;
     list-style-type: none; }
@@ -6810,6 +6810,8 @@ a {
       .section-two ul.services-list li a {
         color: #545454;
         font-family: 'proxima-nova'; }
+        .section-two ul.services-list li a:hover {
+          background-color: #6e6e6e; }
         @media only screen and (min-width:40.0625em) and (max-width:64em) {
           .section-two ul.services-list li a {
             font-size: 1.4em; } }
@@ -6819,8 +6821,7 @@ a {
         .section-two ul.services-list li a:visited {
           text-decoration: none; }
         .section-two ul.services-list li a.active {
-          color: #dadada;
-          text-decoration: underline; }
+          color: #dadada; }
   @media only screen and (max-width: 40em) {
     .section-two h2.core-services {
       color: white !important;
@@ -7055,17 +7056,15 @@ a {
   background-color: #e3e3e3; }
   .section-three ul {
     list-style-type: none !important; }
-  .section-three .portfolio-section {
-    background-color: #310100; }
-    @media only screen and (min-width:64.0625em) {
-      .section-three .portfolio-section {
-        min-height: 250px; } }
-    @media only screen and (max-width: 40em) {
-      .section-three .portfolio-section {
-        text-align: center; } }
+  @media only screen and (min-width:64.0625em) {
+    .section-three .portfolio-section {
+      min-height: 150px; } }
+  @media only screen and (max-width: 40em) {
+    .section-three .portfolio-section {
+      text-align: center; } }
   .section-three h2.portfolio-header {
     left: 0px;
-    color: white;
+    color: #aa1f5e;
     display: inline;
     position: relative;
     top: -20px; }
@@ -7074,7 +7073,7 @@ a {
         font-size: 4em; } }
     @media only screen and (min-width:40.0625em) {
       .section-three h2.portfolio-header {
-        font-size: 9em; } }
+        font-size: 5em; } }
   .section-three ul.portfolio-list {
     display: inline;
     list-style-type: none; }
@@ -7086,9 +7085,12 @@ a {
       font-size: 2.5em;
       color: #4e4e4e; }
       .section-three ul.portfolio-list li a {
-        color: #4e4e4e;
+        color: white;
+        background-color: #aa1f5e;
         font-family: 'proxima-nova', sans-serif;
         font-variant: small-caps; }
+        .section-three ul.portfolio-list li a:hover {
+          background-color: #d52778; }
   .section-three img {
     height: auto; }
   .section-three .accent {
@@ -7130,8 +7132,9 @@ a {
 .section-four {
   border-top: 15px solid black;
   padding-top: 40px;
-  background-color: #b8ffad; }
+  background-color: #1a1b1c; }
   .section-four h2 {
+    color: white;
     font-weight: bold; }
     @media only screen and (min-width:40.0625em) {
       .section-four h2 {
@@ -7146,17 +7149,25 @@ a {
     color: gray; }
   .section-four ul.blog-posts li {
     list-style-type: none;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    background-color: #e3e3e3;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 3px; }
     .section-four ul.blog-posts li a {
       font-size: 3em;
       font-variant: small-caps;
-      font-family: 'brandon-grotesque', sans-serif; }
+      font-family: 'brandon-grotesque', sans-serif;
+      text-decoration: underline;
+      color: #d52778; }
     .section-four ul.blog-posts li p {
       font-size: 1.3em;
       font-family: 'brandon-grotesque', sans-serif; }
   .section-four hr.blog-post-divider {
     width: 300px;
     margin: auto; }
+  .section-four .tac {
+    text-align: center; }
 
 /* about */
 /*********************************/
@@ -7365,7 +7376,7 @@ ul.small-portfolio-selector {
   margin-top: 10%; }
   .portfolio-selector a {
     font-family: 'brandon-grotesque', sans-serif;
-    font-size: 6em;
+    font-size: 4em;
     color: black;
     line-height: 70%; }
     .portfolio-selector a:visited {

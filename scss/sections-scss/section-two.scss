@@ -57,6 +57,9 @@
       margin-right: 60px;
       display: inline;
       a { 
+        &:hover {
+          background-color: lighten(#545454, 10%);
+        }
         color: #545454;
         font-family: 'proxima-nova';
         @media #{ $medium-only } {
@@ -72,7 +75,7 @@
         }
         &.active {
           color: #DADADA;
-          text-decoration: underline;
+          // text-decoration: underline;
         }
       }
     }

@@ -1,5 +1,5 @@
 ---
-title: The Ethics Of Choice In Web Development
+title: The Ethics Of Choice
 layout: post
 excerpt: It's up to us to make the big choices, not the client. 
 ---

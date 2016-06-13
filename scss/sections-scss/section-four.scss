@@ -1,12 +1,13 @@
 .section-four {
-  
   border-top: 15px solid #000000;
   padding-top: 40px;
-  background-color: #B8FFAD;
+  $kodeblog-bg: #1A1B1C;
+  background-color: $kodeblog-bg;
   h2 {
     @media #{ $medium-up } {
       font-size: 5em;
     }
+    color: white;
     font-weight: bold;
   }
   p {
@@ -25,10 +26,16 @@
     li {
       list-style-type: none;
       margin-bottom: 50px;
+      background-color: #e3e3e3;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 3px;
       a {
         font-size: 3em;
         font-variant: small-caps;
         font-family: 'brandon-grotesque', sans-serif;
+        text-decoration: underline;
+        color: lighten(#aa1f5e, 10%); // Accent pink, lightened to match
       }
       p {
         font-size: 1.3em;
@@ -40,5 +47,10 @@
   hr.blog-post-divider {
     width: 300px;
     margin: auto;
+  }
+
+  // Utility class
+  .tac {
+    text-align: center;
   }
 }

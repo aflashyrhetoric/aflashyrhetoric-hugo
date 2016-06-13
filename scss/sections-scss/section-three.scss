@@ -2,7 +2,7 @@
 /*****PORTFOLIO SECTION *********/
 /********************************/
  .section-three {
-
+  $portfolio-accent-color: #aa1f5e;
   background-color: #E3E3E3;
 
   ul {
@@ -10,9 +10,8 @@
   }
 
   .portfolio-section {
-    background-color: #310100;
     @media #{ $large-up } {
-      min-height: 250px;
+      min-height: 150px;
     }
     @media #{ $small-only } {
       text-align: center;
@@ -25,9 +24,9 @@
       font-size: 4em;
     }
     @media #{ $medium-up } {
-      font-size: 9em;
+      font-size: 5em;
     }
-    color: white;
+    color: $portfolio-accent-color;
     display: inline;
     position: relative;
     top: -20px;
@@ -44,9 +43,13 @@
       font-size: 2.5em;
       color: #4E4E4E;
       a {
-        color: #4E4E4E;
+        color: white;
+        background-color: $portfolio-accent-color;
         font-family: 'proxima-nova', sans-serif;
         font-variant: small-caps;
+        &:hover {
+          background-color: lighten($portfolio-accent-color, 10%);
+        }
       }
     }
   }

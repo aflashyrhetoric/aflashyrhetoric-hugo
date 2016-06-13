@@ -13,13 +13,13 @@
     <ul class="portfolio-list text-center mrl">
       <li class="show-for-small-only"><br></li>
       <li>
-        <a id="prof-link" class="service-link active">past work
+        <a id="prof-link" class="button service-link active">
+          professional work
         </a>
       </li>
-      <li class="show-for-medium-up"> / </li>
-      <li class="show-for-small-only"><br></li>
       <li>
-        <a id="pers-link" class="service-link">current projects
+        <a id="pers-link" class="button service-link">
+          hobby/personal 
         </a>
       </li>
     </ul>
@@ -44,7 +44,9 @@
         <img class="mtm" src="img/works/{{ work.thumburl }}" alt="{{ work.name }}">
         <h3 class="mtm text-center show-for-medium-up">visit site</h3>
         <div class="text-center">
-          <a class="mvn text-center work-link" href="{{ work.URL }}">{{ work.URL }}</a>
+          <a class="mvn text-center work-link" href="{{ work.URL }}">
+            {{ work.URL }}
+          </a>
         </div>
       </div>
       <div class="past-work-description pvs
@@ -70,9 +72,9 @@
 
 
   <!-- Start of personal projects -->
-  {% for work in site.data.pers-works.works limit:2 %}
+  {% for work in site.data.hobby.works limit:2 %}
     <div class="row hide personal-projects project">
-      <div class="small-10 small-centered medium-3 large-2 columns end">
+      <div class="small-10 small-centered medium-3 tac large-8 columns end">
         <h2 class="work-name text-center ptm mbn">{{ work.name }}</h2>
       </div>
       <hr class="pvn portfolio-divider">
@@ -99,8 +101,10 @@
         xlarge-4 xlarge-offset-1
         columns end">
         <ul class="work-details">
-          <h3 class="mtn show-for-small-up">services rendered</h3>
-          <li>{{ work.services }} </li>
+          <h3 class="mtn show-for-small-up">
+            type:
+          </h3>
+          <li>{{ work.type }} </li>
           <h3 class="mtm show-for-small-up">about</h3>
           <li>
             {{ work.description }}
