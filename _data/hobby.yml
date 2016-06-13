@@ -14,3 +14,10 @@ works:
     thumburl: "comparison.png"
     URL: "https://github.com/aflashyrhetoric/nightmessenger"
     description: "A Chrome Extension that provides a toggleable, darker, restyled version of Facebook's Messenger.com web app. "
+  - loremschwifty:
+    name: "Lorem Schwifty API"
+    type: "Hobby API Project"
+    tech_used: "Laravel"
+    thumburl: "wip.png"
+    URL: "https://github.com/aflashyrhetoric/billquotes"
+    description: "A silly API-in-progress that returns quotes from my friend Bill, for use as Lorem Ipsum text."
