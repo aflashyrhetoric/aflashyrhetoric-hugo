@@ -10,8 +10,8 @@
 @import "normalize";
 
 /* foundation */
-@import "settings",
-		"foundation";
+//@import "settings",
+//		"foundation";
 
 /* padding and margins */
 @import "padding-margin";
@@ -20,24 +20,11 @@
 @import "custom";
 
 /* PAGE SCSS */
-
-/* home */
-@import "home";
-
-/* about */
-@import "about";
-
-/* blog */
-@import "blog";
-
-/* post */
-@import "post";
-
-/* contact */
-@import "contact";
-
-/* portfolio */
-@import "portfolio";
-
-/* footer */
-@import "footer";
+@import "home",
+		"about",
+		"blog",
+		"post",
+		"contact",
+		"portfolio",
+		"footer",
+		"maintenance";
