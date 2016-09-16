@@ -1,70 +1,87 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on kevin oh</title>
+    <title>Posts on aflashyrhetoric</title>
     <link>http://kevinoh.me/posts/</link>
-    <description>Recent content in Posts on kevin oh</description>
+    <description>Recent content in Posts on aflashyrhetoric</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>© 2016 Kevin Oh</copyright>
     <lastBuildDate>Thu, 15 Sep 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://kevinoh.me/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>My first post</title>
+      <title>Hello World!</title>
       <link>http://kevinoh.me/posts/first/</link>
       <pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>http://kevinoh.me/posts/first/</guid>
       <description>
 
-&lt;h1 id=&#34;this-is-markdown&#34;&gt;This is markdown&lt;/h1&gt;
+&lt;h3 id=&#34;first-posts-are-odd&#34;&gt;First posts are odd.&lt;/h3&gt;
 
-&lt;p&gt;Hopefully this worked.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum totam dolorum deserunt exercitationem reprehenderit quos est error obcaecati aut sed.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt dolorum esse totam, numquam nemo, inventore odit itaque soluta tempora fugit sapiente officia voluptate ratione enim. Ut saepe quaerat sint iusto, illo possimus delectus dolore recusandae! Similique cum debitis reiciendis omnis hic blanditiis est commodi, culpa.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas consequuntur voluptates magni provident deserunt earum, eum quis ea exercitationem ipsam saepe, commodi dolorum quidem atque. Commodi doloremque praesentium ut voluptates doloribus veritatis dolore dolorem facilis, illo, deleniti suscipit quam, aspernatur quidem. Omnis, illo necessitatibus amet quisquam distinctio inventore accusamus, similique, commodi dolorem odit eaque impedit dolores veniam quo quis, nesciunt eligendi! Aut unde iste alias, exercitationem est distinctio, ducimus nulla nam. Magni deserunt ea soluta possimus voluptate dolor rerum delectus voluptatem ipsa explicabo, ad minima, optio iusto aperiam, tenetur aliquid mollitia expedita. Quaerat quae, reiciendis quisquam, placeat sed harum, vitae atque debitis, doloribus ullam beatae! Rem, reprehenderit omnis sunt quos voluptates doloremque nisi laborum quaerat in quidem, quo amet adipisci libero.&lt;/p&gt;
-
-&lt;p&gt;Reprehenderit consequatur ducimus repellat sit officia earum, eos vel nulla consectetur placeat adipisci quas ratione necessitatibus non expedita recusandae ut cumque odio voluptatibus accusantium debitis nesciunt omnis. Aliquid nisi dolores ab inventore minima necessitatibus laudantium, nam voluptatibus possimus ex, molestias quas. Ipsum provident, adipisci expedita! Repellat, id quasi similique reprehenderit, beatae porro et ea quod earum eligendi, odio vero ab, ducimus consequatur temporibus corrupti provident ut eos. Repellendus perferendis mollitia ut impedit eligendi dolores sequi modi ea, distinctio sit iusto veritatis harum dignissimos eius molestiae sapiente excepturi dicta consectetur officiis! Soluta dolore ullam sint? Dolorum et dolor dolorem hic quam delectus doloremque quos impedit consequatur reprehenderit quidem, neque, excepturi consectetur vitae dolore assumenda earum repellat, nulla fuga ullam alias quisquam nihil ducimus qui iste? Ullam ducimus blanditiis quae enim soluta, autem optio nemo, consequuntur harum. Culpa, deleniti. Excepturi et eius hic similique ad quam assumenda debitis sequi, animi, dicta vel culpa sunt, consequuntur veritatis in illum nulla? Recusandae ab dolores possimus, molestiae nobis nihil nemo cumque quasi magni nesciunt velit dolorum tenetur, praesentium! Doloribus cumque laborum est nisi excepturi!&lt;/p&gt;
+&lt;p&gt;LOL&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>My first post</title>
-      <link>http://kevinoh.me/posts/first/</link>
+      <title>Olive Tree Ministry Initial Setup</title>
+      <link>http://kevinoh.me/posts/otm-setup/</link>
       <pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://kevinoh.me/posts/first/</guid>
+      <guid>http://kevinoh.me/posts/otm-setup/</guid>
       <description>
 
-&lt;h2 id=&#34;this-is-markdown&#34;&gt;This is markdown&lt;/h2&gt;
+&lt;h3 id=&#34;welcome-to-otm&#34;&gt;Welcome to OTM!&lt;/h3&gt;
 
-&lt;h3 id=&#34;let-s-make-a-list&#34;&gt;Let&amp;rsquo;s make a list:&lt;/h3&gt;
+&lt;p&gt;Let&amp;rsquo;s get you set up to work with OTM! We use email and a chat application called &lt;a href=&#34;https://slack.com/&#34;&gt;Slack&lt;/a&gt;.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;My name is kevin&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;This is item 2&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;This is item 3&lt;br /&gt;
+&lt;h3 id=&#34;you-ve-got-to&#34;&gt;You&amp;rsquo;ve got to:&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;And item 4&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Set up your new email @olivetreeministry.li&lt;/li&gt;
+&lt;li&gt;Join our Slack channel&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;code&gt;And code&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;setup-otm-email&#34;&gt;Setup OTM Email&lt;/h3&gt;
 
-&lt;p&gt;Hopefully this worked.&lt;/p&gt;
+&lt;p&gt;Our email provider is Zoho. Follow the steps below to configure your steps.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum totam dolorum deserunt exercitationem reprehenderit quos est error obcaecati aut sed.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Consult the administrator (Kevin Oh) make sure your account has been created.&lt;/li&gt;
+&lt;li&gt;Go to &lt;a href=&#34;http://zohomail.com&#34;&gt;http://zohomail.com&lt;/a&gt; and click &lt;em&gt;LOGIN&lt;/em&gt; in the top-right.&lt;/li&gt;
+&lt;li&gt;Sign in with YOURFIRSTNAME.YOURLASTNAME@olivetreeministry.li as the username, and &amp;ldquo;password&amp;rdquo; as the password.&lt;/li&gt;
+&lt;li&gt;Change your password by clicking &lt;a href=&#34;https://accounts.zoho.com/u/h#security/security_pwd&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Download the Zoho Mail app, available on &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.zoho.mail&amp;amp;hl=en&#34;&gt;Android&lt;/a&gt; and &lt;a href=&#34;https://itunes.apple.com/us/app/zoho-mail-email-calendar-contacts/id909262651?ls=1&amp;amp;mt=8&#34;&gt;iOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Done! Your email should now be able to send/receive emails. If it`s not working, email Kevin at wdkevo@gmail.com or by visiting the OTM Slack.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt dolorum esse totam, numquam nemo, inventore odit itaque soluta tempora fugit sapiente officia voluptate ratione enim. Ut saepe quaerat sint iusto, illo possimus delectus dolore recusandae! Similique cum debitis reiciendis omnis hic blanditiis est commodi, culpa.&lt;/p&gt;
+&lt;h3 id=&#34;join-otm-slack&#34;&gt;Join OTM Slack&lt;/h3&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas consequuntur voluptates magni provident deserunt earum, eum quis ea exercitationem ipsam saepe, commodi dolorum quidem atque. Commodi doloremque praesentium ut voluptates doloribus veritatis dolore dolorem facilis, illo, deleniti suscipit quam, aspernatur quidem. Omnis, illo necessitatibus amet quisquam distinctio inventore accusamus, similique, commodi dolorem odit eaque impedit dolores veniam quo quis, nesciunt eligendi! Aut unde iste alias, exercitationem est distinctio, ducimus nulla nam. Magni deserunt ea soluta possimus voluptate dolor rerum delectus voluptatem ipsa explicabo, ad minima, optio iusto aperiam, tenetur aliquid mollitia expedita. Quaerat quae, reiciendis quisquam, placeat sed harum, vitae atque debitis, doloribus ullam beatae! Rem, reprehenderit omnis sunt quos voluptates doloremque nisi laborum quaerat in quidem, quo amet adipisci libero.&lt;/p&gt;
+&lt;p&gt;The OTM team uses Slack to communicate. Follow the steps below to obtain access to our Slack team.&lt;/p&gt;
 
-&lt;p&gt;Reprehenderit consequatur ducimus repellat sit officia earum, eos vel nulla consectetur placeat adipisci quas ratione necessitatibus non expedita recusandae ut cumque odio voluptatibus accusantium debitis nesciunt omnis. Aliquid nisi dolores ab inventore minima necessitatibus laudantium, nam voluptatibus possimus ex, molestias quas. Ipsum provident, adipisci expedita! Repellat, id quasi similique reprehenderit, beatae porro et ea quod earum eligendi, odio vero ab, ducimus consequatur temporibus corrupti provident ut eos. Repellendus perferendis mollitia ut impedit eligendi dolores sequi modi ea, distinctio sit iusto veritatis harum dignissimos eius molestiae sapiente excepturi dicta consectetur officiis! Soluta dolore ullam sint? Dolorum et dolor dolorem hic quam delectus doloremque quos impedit consequatur reprehenderit quidem, neque, excepturi consectetur vitae dolore assumenda earum repellat, nulla fuga ullam alias quisquam nihil ducimus qui iste? Ullam ducimus blanditiis quae enim soluta, autem optio nemo, consequuntur harum. Culpa, deleniti. Excepturi et eius hic similique ad quam assumenda debitis sequi, animi, dicta vel culpa sunt, consequuntur veritatis in illum nulla? Recusandae ab dolores possimus, molestiae nobis nihil nemo cumque quasi magni nesciunt velit dolorum tenetur, praesentium! Doloribus cumque laborum est nisi excepturi!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If you haven&amp;rsquo;t configured an OliveTreeMinistry@li email, please do so.&lt;/li&gt;
+&lt;li&gt;Visit &lt;a href=&#34;http://olivetreeministry.slack.com/signup&#34;&gt;here&lt;/a&gt; and use your email to create an account.&lt;/li&gt;
+&lt;li&gt;Follow the prompts to join.&lt;/li&gt;
+&lt;li&gt;Done! Read the section below to see what you can do on Slack.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;slack-commands&#34;&gt;Slack Commands&lt;/h3&gt;
+
+&lt;h4 id=&#34;slack-command-overview&#34;&gt;Slack command overview&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;help channels&lt;/code&gt; : See what each Slack channel is for&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;help meetings&lt;/code&gt; : View this month&amp;rsquo;s meeting schedule&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;help nextmeeting&lt;/code&gt; : See upcoming meeting details.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;help events&lt;/code&gt; : View all events.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;help commands&lt;/code&gt; : View an overview of Slack commands.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;done-check-out-the-slack-here-https-olivetreeministry-slack-com&#34;&gt;Done. Check out the slack &lt;a href=&#34;https://olivetreeministry.slack.com&#34;&gt;here&lt;/a&gt;.&lt;/h3&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 </description>
     </item>
     
