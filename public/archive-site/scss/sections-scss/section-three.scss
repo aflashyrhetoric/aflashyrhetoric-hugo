@@ -1,0 +1,122 @@
+/********************************/
+/*****PORTFOLIO SECTION *********/
+/********************************/
+ .section-three {
+  $portfolio-accent-color: #aa1f5e;
+  background-color: #E3E3E3;
+
+  ul {
+    list-style-type: none !important;
+  }
+
+  .portfolio-section {
+    @media #{ $large-up } {
+      min-height: 150px;
+    }
+    @media #{ $small-only } {
+      text-align: center;
+    }
+  }
+
+  h2.portfolio-header {
+    left: 0px;
+    @media #{ $small-only } {
+      font-size: 4em;
+    }
+    @media #{ $medium-up } {
+      font-size: 5em;
+    }
+    color: $portfolio-accent-color;
+    display: inline;
+    position: relative;
+    top: -20px;
+  }
+
+  ul.portfolio-list {
+    @media #{ $medium-up } {
+     float: right; 
+    }
+    display: inline;
+    list-style-type: none;
+    li {
+      display: inline;
+      font-size: 2.5em;
+      color: #4E4E4E;
+      a {
+        color: white;
+        background-color: $portfolio-accent-color;
+        font-family: 'proxima-nova', sans-serif;
+        font-variant: small-caps;
+        &:hover {
+          background-color: lighten($portfolio-accent-color, 10%);
+        }
+      }
+    }
+  }
+
+  img {
+    // border: 30px solid #424242;
+    height: auto;
+  }
+  .accent {
+    font-size: 2em;
+    vertical-align: middle;
+  }
+  .project {
+    padding-bottom: 30px;
+   a {
+      text-align: center;
+      font-family: 'brandon-grotesque';
+      font-size: 2em;
+    }
+  }
+  // latest work / current projects
+
+  hr.portfolio-divider {
+    width: 33%;
+    margin: auto;
+
+  }
+  h2.work-name { 
+    font-size: 4em;
+    font-family: 'brandon-grotesque', sans-serif;
+  }
+  a.service-link {
+    color: white;
+
+  }
+  a.work-link {
+    @media #{ $small-only } {
+      font-size: 1.5em;
+    }
+  }
+  p {
+    display: inline;
+  }
+
+  ul.work-details {
+    h3 {
+      font-weight: bold;
+      font-size: 1.0em !important;
+      @media #{ $small-only } {
+        font-size: 2em !important;
+      }
+    }
+    li {
+      font-size: 1.2em;
+      font-family: 'proxima-nova', sans-serif;
+    }
+  }
+
+  .personal-projects {
+    // visibility: hidden;
+  }
+
+  .show {
+    visibility: visible;
+  }
+
+  .hide {
+    visibility: hidden;
+  }
+}

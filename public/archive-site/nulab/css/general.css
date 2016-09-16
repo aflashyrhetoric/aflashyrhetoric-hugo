@@ -1,0 +1,21 @@
+/* 
+* General.SCSS
+* Contains site-wide code (ie: 'settings')
+*/
+body {
+  background-color: #88CCE8; }
+
+h1, h2, h3, p, a, li {
+  font-family: "filson-soft", sans-serif; }
+
+.btn {
+  padding: 1rem 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  min-width: 4rem;
+  border: 1px solid black; }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center; }

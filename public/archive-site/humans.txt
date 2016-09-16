@@ -1,0 +1,9 @@
+/* TEAM */
+  Developer: Kevin Oh
+  Site: aflashyrhetoric.github.io
+  Github: @aflashyrhetoric
+  Location: Islip, NY
+
+/* SITE */
+  Standards: HTML5, MD, SCSS/CSS3, JS 
+  Components: Zurb Foundation, Jekyll, jQuery, Modernizr, bower, grunt

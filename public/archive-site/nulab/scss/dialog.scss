@@ -1,0 +1,63 @@
+/*
+* Dialog.SCSS 
+* Contains SCSS for the overall dialog window.
+*/
+
+
+@import "general", "mixins"; 
+
+.dialog {
+	// Colors
+	background-color: #fff;
+	$authorize-color: #29B66E;
+	$authorize-alt-color: #FFE500;
+
+	// Box Sizing
+	width: 450px;
+	height: 450px;
+	padding: 2rem;
+	margin-top: 2rem;
+	border-radius: 3px;
+
+	// Display
+	display: flex;
+	flex-flow: column nowrap;
+
+	// Text
+	&__title {
+		text-align: center;
+	}
+
+	// Oauth Icons
+	&__icon-list {
+		list-style-type: none;
+		margin: auto;
+		width: 40%;
+	}
+
+	&__icon {
+		display: inline;
+	}
+
+	/*
+	 * Button Stuff 
+	 * (Mixins located in mixins.scss)
+	 */
+	.btn__container {
+		display: flex;
+		flex-flow: row nowrap;
+		margin: auto;
+	}
+	.btn--authorize {
+		@include button-color($authorize-color);
+		&:hover {
+			background-color: lighten($authorize-color, 15);
+		}
+	}
+	.btn--authorize--alt{
+		@include button-color($authorize-alt-color);
+		&:hover {
+			background-color: lighten($authorize-alt-color, 15);
+		}
+	}
+}

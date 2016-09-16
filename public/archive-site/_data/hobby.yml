@@ -1,0 +1,23 @@
+---
+works:
+  - pray:
+    name: "Pray: Anonymous Forum"
+    type: "Side Project & Web App"
+    tech_used: "Laravel, PHP, SkeletonCSS, Vagrant"
+    thumburl: "pray.png"
+    URL: "https://github.com/aflashyrhetoric/pray"
+    description: "A forum that is anonymous-by-default, with special features designed to encourage honest feedback and communication."
+  - nightmessenger:
+    name: "Night Messenger Chrome Extension"
+    type: "Chrome Extension"
+    tech_used: "Javascript, Chrome Extension API"
+    thumburl: "comparison.png"
+    URL: "https://github.com/aflashyrhetoric/nightmessenger"
+    description: "A Chrome Extension that provides a toggleable, darker, restyled version of Facebook's Messenger.com web app. "
+  - loremschwifty:
+    name: "Lorem Schwifty API"
+    type: "Hobby API Project"
+    tech_used: "Laravel"
+    thumburl: "wip.png"
+    URL: "https://github.com/aflashyrhetoric/billquotes"
+    description: "A silly API-in-progress that returns quotes from my friend Bill, for use as Lorem Ipsum text."

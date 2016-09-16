@@ -1,0 +1,70 @@
+/*********************************/
+/******* CONTACT FORM PAGE *******/
+/*********************************/
+
+@import "colors";
+
+.contact-form-container {
+  h1 {
+    font-family: 'museo-slab', sans-serif;
+  }
+  p {
+    font-family: 'raleway', sans-serif;
+    font-size: 1.0em;
+    line-height: 15px;
+  }
+}
+
+.contact-form {
+  form {
+    input#name, input#email, textarea {
+      background-color: #EFEFEF;
+      padding-left: 15px;
+    }
+    input#email, textarea#message {
+      margin-top: 40px;
+    }
+  }
+
+  label {
+    font-family: 'raleway', sans-serif;
+    font-size: 1.5em;
+  }
+}
+
+
+//Thank you
+
+.thank-you-container {
+  h1 {
+    font-family: 'raleway', sans-serif;
+  } 
+  p {
+    font-family: 'raleway', sans-serif;
+    font-size: 1.3em;
+  }
+}
+
+ul.thankyou-list {
+  list-style-type: none;
+  text-align: center;
+  li {
+    display: inline-block;
+    font-family: 'museo-slab';
+    font-variant: small-caps;
+    @media #{ $small-only } {
+      font-size: 1.5em;
+      text-decoration: underline;
+    }
+    @media #{ $medium-up } {
+      font-size: 2em;
+      margin-right: 15px;
+    }
+    a {
+      color: $color3;
+      &:visited, &:hover {
+        color: $color3;
+      }
+    }
+  }
+}

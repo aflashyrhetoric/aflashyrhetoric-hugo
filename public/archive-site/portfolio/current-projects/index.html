@@ -1,0 +1,64 @@
+---
+layout: portfolio
+title: Portfolio
+description: My past and current work!
+keywords: web development, webdev, webdesign, kevin oh
+---
+<ul class="portfolio-navbar mbn pbs">
+  <li><a href="/">home</a></li>
+  <li><a href="/blog">blog</a></li>
+  <li style="height:8px;" class="show-for-small-only"><br></li>
+  <li><a href="/portfolio">portfolio</a></li>
+  <li><a href="/contact">contact</a></li>
+</ul>
+<div class="row full-width portfolio-description">
+  <div class="columns small-centered small-12 medium-5 text-center">
+    <i class="fa fa-laptop fa-inverse fa-4x mtl mbs"></i>
+    <h2>Hobby Projects</h2>
+    <p>This is a collection of hobby/personal projects. </p>
+    <a href="/portfolio/past-work">view professional work</a>
+  </div>
+</div>
+{% for work in site.data.hobby.works %}
+  <div class="row professional-projects">
+    <div class="small-10 small-centered medium-3 large-4 columns end">
+      <h2 class="work-name text-center mbn">{{ work.name }}</h2>
+    </div>
+    <hr class="pvn portfolio-divider">
+  </div>
+  <!--Projects -->
+  <div class="row full-width project professional-projects pbm">
+    <div class="
+      project
+      small-10 small-offset-1
+      medium-5 medium-offset-1
+      large-5 large-offset-1
+      xlarge-5 xlarge-offset-1
+      columns end">
+      <img class="mtm" src="/img/works/{{ work.thumburl }}" alt="{{ work.name }}">
+      <h3 class="mtm text-center ">visit site</h3>
+      <div class="text-center mtm">
+        <a class="text-center" href="{{ work.URL }}">{{ work.URL }}</a>
+      </div>
+    </div>
+    <div class="past-work-description pvs
+      small-12
+      medium-5 medium-offset-0
+      large-5 large-offset-0
+      xlarge-4 xlarge-offset-1
+      end
+      columns">
+      <ul class="work-details">
+        <h3 class="mtn show-for-show-up">type of project</h3>
+        <li>{{ work.type }} </li>
+        <h3 class="mtm show-for-show-up">about</h3>
+        <li>
+          {{ work.description }}
+        </li>
+        <h3 class="mtm show-for-show-up">technologies used</h3>
+        <li>{{ work.tech_used }} </li>
+      </ul>
+    </div>
+  </div>
+  <!--End of project -->
+{% endfor %}

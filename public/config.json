@@ -1,0 +1,17 @@
+{
+	"baseurl": "http://kevinoh.me",
+	"languageCode": "en-us",
+	"title": "aflashyrhetoric",
+	"theme": "amp",
+	"params": {
+		"subtitle": "blog"
+	},
+	"paginate": 6,
+	"copyright": "© 2016 Kevin Oh",
+	"social" : {
+	 	"twitter": "aflashyrhetoric",
+	 	"github": "aflashyrhetoric",
+	 	"facebook": "kohhhhh",
+	 	"linkedin": "kevinsoh1"
+	}
+}

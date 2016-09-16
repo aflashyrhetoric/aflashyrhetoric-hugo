@@ -1,0 +1,8 @@
+/*
+* Mixins.SCSS 
+*/ 
+
+// Returns new button color.
+@mixin button-color($color) {
+	background-color: $color;
+}
