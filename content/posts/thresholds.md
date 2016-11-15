@@ -9,7 +9,7 @@
     "categories": [
       "misc"
     ],
-    "slug": "Thresholds",
+    "slug": "thresholds",
     "type": "post",
     "draft": false
 }
