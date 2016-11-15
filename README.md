@@ -7,6 +7,11 @@ aflashyrhetoric-hugo/public maps to [aflashyrhetoric.github.io](https://github.c
 
 ### How To Publish
 
-type `hugo server` which will render the files
+1. Write a new blog post in aflashyrhetoric-hugo
+2. `git push` to save the SOURCE FOLDER and push it to aflashyrhetoric-hugo repository.
+3. Type `hugo server` which will render the content and build the site.
+4. `cd aflashyrhetoric-hugo/public`
+5. `git add -A; git commit -m "Added new post"; git push origin master` to add content to OUTPUT FOLDER
+6. Cry because you're an idiot that doesn't understand `git upstream`
 
 
