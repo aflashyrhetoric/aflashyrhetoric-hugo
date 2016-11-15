@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts-rsses on aflashyrhetoric</title>
-    <link>http://kevinoh.me/posts/index.xml</link>
-    <description>Recent content in Posts-rsses on aflashyrhetoric</description>
+    <title>aflashyrhetoric</title>
+    <link>http://kevinoh.me/categories/misc/index.xml</link>
+    <description>Recent content on aflashyrhetoric</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2016 Kevin Oh</copyright>
-    <lastBuildDate>Mon, 07 Nov 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://kevinoh.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://kevinoh.me/categories/misc/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Thresholds</title>
@@ -67,15 +66,6 @@ Impractical optimization would be giving him a sports car instead of a sedan, be
 
 &lt;p&gt;/afr&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://kevinoh.me/posts/Lowering%20the%20bar%20instead%20of%20meeting%20difficult%20standards/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://kevinoh.me/posts/Lowering%20the%20bar%20instead%20of%20meeting%20difficult%20standards/</guid>
-      <description></description>
     </item>
     
   </channel>

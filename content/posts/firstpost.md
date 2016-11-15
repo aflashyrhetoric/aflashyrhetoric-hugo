@@ -13,7 +13,8 @@
         "development"
     ],
     "type": "post",
-    "slug": "from-null"
+    "slug": "from-null",
+    "draft": true
 }
 
 # Null Hypothesis

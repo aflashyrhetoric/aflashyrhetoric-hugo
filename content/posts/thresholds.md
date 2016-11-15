@@ -1,21 +1,21 @@
 {
-    "title": "From Null",
-    "description": "Or, 'why I find cooperation miraculous.'",
+    "title": "Thresholds",
+    "description": "Or, the idea of \" Good Enough\"",
     "tags": [
-      "thoughts"
+      "formal",
+      "dry"
     ],
     "date": "2016-11-07",
     "categories": [
-    	"writing",
-      "scrawls"
+      "misc"
     ],
     "slug": "Thresholds",
     "type": "post",
-    "draft": true
+    "draft": false
 }
 
 # Optimization past the Adequacy Threshold
-### A scrawl on priority, morality
+### Dry theoretical writing not meant for consumption by cool people
 
 At any given time, an entity may be in one of two states: unstable, and stable. Similarly, they may be undergoing one of three processes: repair, maintenance, and optimization.
 

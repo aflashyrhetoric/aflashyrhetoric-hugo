@@ -11,7 +11,9 @@
     	"otm"
     ],
     "slug": "otm-setup",
-    "type": "post"
+    "type": "post",
+    "draft": true
+
 }
 
 ### Welcome to OTM!
